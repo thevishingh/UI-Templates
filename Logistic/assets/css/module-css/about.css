@@ -1,0 +1,617 @@
+/*=============================
+	About One Css
+===============================*/
+.about-one {
+    padding: 17px 0px 140px;
+    z-index: 10;
+}
+
+.about-one__img-box {
+    position: relative;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+}
+
+.about-one__img-box::before {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: 110px;
+    right: -17px;
+    bottom: 40px;
+    border-radius: 5px;
+    background-color: var(--thm-primary);
+    z-index: -2;
+}
+
+.about-one__img-box-overlay-bg {
+    position: absolute;
+    top: -17px;
+    left: 110px;
+    bottom: 40px;
+    right: -17px;
+    border-radius: 4px;
+    background-color: var(--thm-secondary);
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+    transform-origin: top right;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    z-index: -1;
+}
+
+.about-one__img-box:hover .about-one__img-box-overlay-bg {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transform-origin: bottom center;
+}
+
+.about-one__img-box .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.about-one__img-box .inner img {
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.about-one__img-box:hover .inner img {
+    transform: scale(1.05) rotate(1deg);
+}
+
+.about-one__overlay-box {
+    position: absolute;
+    right: -102px;
+    bottom: 40px;
+    background-color: var(--thm-white);
+    border-radius: 5px;
+    padding: 31px 40px 25px;
+}
+
+.about-one__overlay-box .outer-box {
+    position: relative;
+    display: block;
+}
+
+.about-one__overlay-box .outer-box .count-outer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+
+.about-one__overlay-box .outer-box .count-outer h2 {
+    font-size: 48px;
+    line-height: 1.1em;
+    font-family: var(--thm-heading-font);
+}
+
+.about-one__overlay-box .outer-box .count-outer i {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-black);
+    font-size: 30px;
+    line-height: 30px;
+    font-family: var(--thm-heading-font);
+    top: -2px;
+}
+
+.about-one__overlay-box .text {
+    position: relative;
+    display: block;
+}
+
+.about-one__overlay-box .text p {
+    margin: 0;
+}
+
+
+.about-one__content-box {
+    position: relative;
+    display: block;
+}
+
+.about-one__content-box .sec-title {
+    padding-bottom: 20px;
+}
+
+.about-one__content-box .text {
+    position: relative;
+    display: block;
+}
+
+.about-one__content-box .text p {
+    margin: 0;
+}
+
+.about-one__content-box ul {
+    position: relative;
+    display: block;
+    padding-top: 40px;
+}
+
+.about-one__content-box ul li {
+    position: relative;
+    display: block;
+    padding-left: 45px;
+}
+
+.about-one__content-box ul li+li {
+    margin-top: 30px;
+}
+
+.about-one__content-box ul li .icon {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    line-height: 0;
+}
+
+.about-one__content-box ul li .icon span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-secondary);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.about-one__content-box ul li .text-box {
+    position: relative;
+    display: block;
+}
+
+.about-one__content-box ul li .text-box h3 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 13px;
+}
+
+.about-one__content-box ul li .text-box p {
+    margin: 0;
+}
+
+
+/*=============================
+	About Two Css
+===============================*/
+.about-two {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 0px 0px;
+    z-index: 10;
+}
+
+.about-two__img {
+    position: relative;
+    display: block;
+    max-width: 795px;
+    width: 100%;
+    margin-left: -103px;
+}
+
+.about-two__img ul {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about-two__img ul li {
+    position: relative;
+    display: block;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-two__img ul li .single-about-two__img-box {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.about-two__img ul li:first-child .single-about-two__img-box {
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
+}
+
+.about-two__img ul li .single-about-two__img-box .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.about-two__img ul li .single-about-two__img-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease;
+    z-index: 1;
+}
+
+.about-two__img ul li .single-about-two__img-box:hover::before {
+    opacity: 0.50;
+}
+
+.about-two__img ul li .single-about-two__img-box img {
+    width: 100%;
+    transform: scale(1.0);
+}
+
+.about-two__img ul li .single-about-two__img-box:hover img {
+    transform: scale(1.05) rotate(0deg);
+}
+
+.about-two__img .overlay-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    width: 232px;
+    height: 232px;
+    border-radius: 5px;
+    border: 5px solid var(--thm-primary);
+    background-color: #f2f6f9;
+    z-index: 5;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.about-two__img .overlay-box .outer-box {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+.about-two__img .overlay-box .outer-box .count-outer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+}
+
+.about-two__img .overlay-box .count-outer h2 {
+    color: var(--thm-black);
+    font-size: 48px;
+    line-height: 1.1em;
+    font-family: var(--thm-heading-font);
+}
+
+.about-two__img .overlay-box .outer-box .count-outer i {
+    color: var(--thm-black);
+    font-size: 48px;
+    line-height: 48px;
+    font-family: var(--thm-heading-font);
+}
+
+.about-two__img .overlay-box .outer-box .title {
+    position: relative;
+    display: block;
+    padding-bottom: 13px;
+}
+
+.about-two__img .overlay-box .outer-box .title h4 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.about-two__img .overlay-box .outer-box .text {
+    position: relative;
+    display: block;
+}
+
+.about-two__img .overlay-box .outer-box .text p {
+    margin: 0;
+}
+
+
+.about-two__contant-box {
+    position: relative;
+    display: block;
+    padding-top: 100px;
+    margin-right: -100px;
+    margin-left: -5px;
+}
+
+.about-two__contant-box .sec-title {
+    padding-bottom: 20px;
+}
+
+.about-two__contant-box .text {
+    position: relative;
+    display: block;
+}
+
+.about-two__contant-box .text p {
+    margin: 0;
+}
+
+.about-one__futures1 {
+    position: relative;
+    display: block;
+    padding-top: 28px;
+}
+
+.about-one__futures1 ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-one__futures1 ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333f4d;
+    padding-bottom: 10px;
+}
+
+.about-one__futures1 ul li .icon {
+    position: relative;
+    display: block;
+    line-height: 0;
+    margin-right: 20px;
+}
+
+.about-one__futures1 ul li .icon span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-secondary);
+    font-size: 55px;
+}
+
+.about-one__futures1 ul li h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.about-one__list-item {
+    position: relative;
+    display: block;
+    padding-top: 31px;
+}
+
+.about-one__list-item ul {
+    position: relative;
+    display: block;
+}
+
+.about-one__list-item ul li {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+.about-one__list-item ul li+li {
+    margin-top: 16px;
+}
+
+.about-one__list-item ul li .icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    line-height: 0;
+}
+
+.about-one__list-item ul li .icon span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-secondary);
+    font-size: 22px;
+}
+
+.about-one__list-item ul li p {
+    margin: 0;
+}
+
+
+/*=============================
+	About Two Css
+===============================*/
+.about-three {
+    position: relative;
+    display: block;
+    background-color: var(--thm-primary);
+    padding: 140px 0px 140px;
+    z-index: 1;
+}
+
+.about-three__big-title {
+    position: absolute;
+    top: 52px;
+    left: 43px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255, 0.2);
+    font-size: 150px;
+    line-height: 1.2em;
+    font-family: var(--thm-heading-font);
+    font-weight: 700;
+    text-transform: capitalize;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.about-three__img {
+    position: relative;
+    display: block;
+    margin-right: 30px;
+    margin-left: -5px;
+    max-width: 605px;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.about-three__img img {
+    width: 100%;
+    transform: scale(1.0);
+}
+
+.about-three__img:hover img {
+    transform: scale(1.05) rotate(1deg);
+}
+
+.about-three__content {
+    position: relative;
+    display: block;
+    padding-top: 33px;
+}
+
+.about-three__content .sec-title {
+    padding-bottom: 20px;
+}
+
+.about-three__content .sec-title .sub-title h4 {
+    color: var(--thm-white);
+}
+
+.about-three__content .sec-title h2 {
+    color: var(--thm-white);
+}
+
+.about-three__content .text {
+    position: relative;
+    display: block;
+}
+
+.about-three__content .text p {
+    color: var(--thm-white);
+}
+
+.about-three__content-list-item {
+    position: relative;
+    display: block;
+    padding-top: 33px;
+}
+
+.about-three__content-list-item ul {
+    position: relative;
+    display: block;
+}
+
+.about-three__content-list-item ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+    padding-bottom: 12px;
+}
+
+.about-three__content-list-item ul li+li {
+    margin-top: 23px;
+}
+
+.about-three__content-list-item ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--thm-white);
+    transition: all 600ms ease 100ms;
+    z-index: 1;
+}
+
+.about-three__content-list-item ul li:hover::before {
+    width: 100%;
+}
+
+.about-three__content-list-item ul li .list-item__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.about-three__content-list-item ul li .list-item__inner .number {
+    position: relative;
+    display: block;
+}
+
+.about-three__content-list-item ul li .list-item__inner .number span {
+    color: var(--thm-white);
+    font-size: 32px;
+    line-height: 1.1em;
+    font-family: var(--thm-heading-font);
+    font-weight: 700;
+}
+
+.about-three__content-list-item ul li .list-item__inner .title {
+    position: relative;
+    display: block;
+    padding-left: 46px;
+}
+
+.about-three__content-list-item ul li .list-item__inner .title h3 {
+    color: var(--thm-white);
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.about-three__content-list-item ul li .btn-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+.about-three__content-list-item ul li .btn-box a {
+    position: relative;
+    display: inline-block;
+}
+
+.about-three__content-list-item ul li .btn-box a span {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 25px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.about-three__content-list-item ul li:hover .btn-box a span {
+    color: var(--thm-white);
+}
+
+/*=============================
+	About Two About Css
+===============================*/
+.about-two--about {
+    position: relative;
+    display: block;
+    background: var(--thm-white);
+    padding: 140px 0px 110px;
+}
+
+/*=============================
+	Who we Are About Css
+===============================*/
+.who-we-are-one--about {
+    position: relative;
+    display: block;
+    background: var(--thm-white);
+}

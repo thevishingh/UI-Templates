@@ -1,0 +1,326 @@
+/*======================================
+ Team One Css
+========================================*/
+.team-one {
+    position: relative;
+    display: block;
+    padding: 140px 0px 129px;
+    z-index: 1;
+}
+
+.team-one .container {
+    max-width: 1760px;
+}
+
+.team-one__single {
+    position: relative;
+    display: block;
+    border-bottom: 2px solid var(--thm-black);
+    margin-bottom: 40px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-one__single:hover {
+    transform: translateY(-5px);
+}
+
+.team-one__single::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--thm-secondary);
+    transition: all 600ms ease 100ms;
+    z-index: 1;
+}
+
+.team-one__single:hover::before {
+    width: 100%;
+}
+
+.team-one__single-img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(var(--thm-primary-rgb), 0.10);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-one__single:hover .team-one__single-img {
+    background-color: rgba(var(--thm-primary-rgb), 0.03);
+}
+
+.team-one__single-img img {
+    width: 100%;
+}
+
+.team-one__single-img .social-share-box {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 3;
+}
+
+.team-one__single-img .social-share-box span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--thm-secondary);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--thm-white);
+    cursor: pointer;
+    transition: all 0.3s;
+    z-index: 2;
+}
+
+.team-one__single-img .social-share-box:hover span {
+    color: var(--thm-white);
+    background-color: var(--thm-secondary);
+}
+
+.team-one__single-img .social-share-box ul {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    left: 0;
+    opacity: 0;
+    padding-left: 60px;
+    white-space: nowrap;
+    transform: translateX(-70px);
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.team-one__single-img .social-share-box:hover ul {
+    opacity: 1;
+    transform: translateX(0px);
+    visibility: visible;
+}
+
+.team-one__single-img .social-share-box ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.team-one__single-img .social-share-box ul li+li {
+    margin-left: 5px;
+}
+
+.team-one__single-img .social-share-box ul li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--thm-black);
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: var(--thm-white);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.team-one__single-img .social-share-box ul li a:hover {
+    color: var(--thm-white);
+}
+
+.team-one__single-img .social-share-box ul li a::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color: var(--thm-secondary);
+    transform: scale(0.5);
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    z-index: -1;
+}
+
+.team-one__single-img .social-share-box ul li:hover a::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.team-one__single-content {
+    position: relative;
+    display: block;
+    padding: 28px 0px 20px;
+}
+
+.team-one__single-content .title-box {
+    position: relative;
+    display: block;
+}
+
+.team-one__single-content .title-box h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 13px;
+}
+
+.team-one__single-content .title-box h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s
+}
+
+.team-one__single-content .title-box h3 a:hover {
+    color: var(--thm-secondary);
+}
+
+.team-one__single-content .title-box p {
+    margin: 0;
+}
+
+.team-one__dot-style1 {
+    margin-top: 47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+ Team Two Css
+========================================*/
+.team-two {
+    position: relative;
+    display: block;
+    padding: 140px 0px 110px;
+    z-index: 1;
+}
+
+.team-two__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: var(--thm-white);
+    padding: 40px 40px 40px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-two__single:hover {
+    transform: translateY(-5px);
+}
+
+.team-two__single-img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: rgba(var(--thm-primary-rgb), 0.10);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-two__single:hover .team-two__single-img {
+    background-color: rgba(var(--thm-primary-rgb), 0.70);
+}
+
+.team-two__single-content {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    flex: 1;
+}
+
+.team-two__single-content .title {
+    position: relative;
+    display: block;
+}
+
+.team-two__single-content .title h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.team-two__single-content .title h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-two__single-content .title h3 a:hover {
+    color: var(--thm-primary);
+}
+
+.team-two__single-content .title p {
+    margin: 0;
+}
+
+.team-two__single-content .social-link {
+    position: relative;
+    display: block;
+    padding-top: 20px;
+    width: 145px;
+}
+
+.team-two__single-content .social-link ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    padding: 15px 0px 15px;
+}
+
+.team-two__single-content .social-link ul li {
+    position: relative;
+    display: block;
+    line-height: 0;
+    border-right: 1px solid #e3e3e3;
+    padding-right: 17px;
+    margin-right: 17px;
+}
+
+.team-two__single-content .social-link ul li:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.team-two__single-content .social-link ul li a {
+    position: relative;
+    display: inline-block;
+}
+
+.team-two__single-content .social-link ul li a i {
+    color: var(--thm-black);
+    font-size: 16px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-two__single-content .social-link ul li a:hover i {
+    color: var(--thm-primary);
+}

@@ -1,0 +1,89 @@
+/***
+=============================================
+  Page Header
+=============================================
+***/
+.page-header {
+    position: relative;
+    display: block;
+    padding: 198px 0px 194px;
+    background: var(--thm-black);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.page-header__img {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    right: 0;
+    opacity: 0.2;
+    text-align: center;
+    z-index: 1;
+}
+
+.page-header__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.page-header__inner h2 {
+    color: var(--thm-white);
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.page-header__inner .thm-breadcrumb {
+    position: relative;
+    display: block;
+}
+
+.page-header__inner .thm-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-white);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: var(--thm-heading-font);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    padding-left: 10px;
+}
+
+.page-header__inner .thm-breadcrumb li span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-secondary);
+    font-size: 15px;
+    line-height: 15px;
+    transform: rotate(180deg);
+    font-weight: 700;
+    top: 1px;
+}
+
+.page-header__inner .thm-breadcrumb li:first-child {
+    padding-left: 0;
+}
+
+.page-header__inner .thm-breadcrumb li a {
+    color: var(--thm-white);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: var(--thm-heading-font);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.page-header__inner .thm-breadcrumb li a:hover {
+    color: var(--thm-primary);
+}

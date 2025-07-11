@@ -1,0 +1,303 @@
+
+/*** 
+
+====================================================================
+	Main Footer
+====================================================================
+
+***/
+
+.main-footer{
+	position:relative;
+	background-position:center center;
+	background-repeat:repeat;
+}
+
+.main-footer.alternate .big-column .footer-column .links-widget{
+	margin-left:70px;
+}
+
+.main-footer .inner-container{
+	position:relative;
+	padding: 100px 0px 50px;
+}
+
+.footer-icon-one{
+	position:absolute;
+	left:4%;
+	width:30px;
+	height:51px;
+	bottom:40%;
+	-webkit-animation: icon-bounce 0.8s ease-out infinite;
+    animation: icon-bounce 0.8s ease-out infinite;
+}
+
+.footer-icon-two{
+	position:absolute;
+	left:26%;
+	width:44px;
+	height:38px;
+	bottom:35%;
+}
+
+.footer-icon-three{
+	position:absolute;
+	right:5%;
+	width:69px;
+	height:60px;
+	bottom:70%;
+}
+
+.footer-icon-four{
+	position:absolute;
+	left:5%;
+	width:84px;
+	height:83px;
+	bottom:17%;
+}
+
+.footer-icon-five{
+	position:absolute;
+	right:5%;
+	width:59px;
+	height:59px;
+	top:17%;
+}
+
+.footer-icon-six{
+	position:absolute;
+	left:5%;
+	width:82px;
+	height:82px;
+	bottom:15%;
+}
+
+.footer-icon-seven{
+	position:absolute;
+	left:39%;
+	width:26px;
+	height:32px;
+	bottom:26%;
+}
+
+.footer-icon-eight{
+	position:absolute;
+	right:5%;
+	width:84px;
+	height:83px;
+	top:32%;
+}
+
+.footer-icon-nine{
+	position:absolute;
+	left:5%;
+	width:30px;
+	height:51px;
+	bottom:32%;
+}
+
+.footer-icon-ten{
+	position:absolute;
+	left:25%;
+	width:44px;
+	height:38px;
+	bottom:29%;
+}
+
+.footer-icon-eleven{
+	position:absolute;
+	right:5%;
+	width:69px;
+	height:60px;
+	top:40%;
+}
+
+.footer-icon-twelve{
+	position:absolute;
+	left:5%;
+	width:48px;
+	height:48px;
+	top:-15%;
+	-webkit-animation: icon-bounce 0.8s ease-out infinite;
+    animation: icon-bounce 0.8s ease-out infinite;
+}
+
+.footer-logo{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.main-footer_text{
+	position: relative;
+	line-height: 32px;
+	font-size: 18px;
+	max-width: 300px;
+	color: var(--color-six);
+}
+
+.footer_bg-image{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-size: cover;
+}
+
+.footer_socials{
+	position: relative;
+	margin-top: 50px;
+}
+
+.footer_socials a{
+	position: relative;
+	font-size: 20px;
+	color: #55644A;
+	margin-right:15px;
+	display: inline-block;
+	font-family: 'Font Awesome 6 Brands';
+}
+
+.footer_socials a:hover{
+	color: var(--color-six);
+}
+
+.main-footer .widgets-section{
+	position:relative;
+}
+
+.footer-title{
+	font-weight: 600;
+	margin-top:10px;
+	font-size:22px;
+	margin-bottom: 20px;
+	color: var(--color-eight);
+	text-transform: capitalize;
+	font-family: "Manrope", sans-serif;
+}
+
+.footer-column{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+/* Footer List */
+
+.footer-list{
+	position: relative;
+}
+
+.footer-list li{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.footer-list li:last-child{
+	margin-bottom: 0px;
+}
+
+.footer-list li a{
+	position: relative;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 12px;
+	color: var(--color-six);
+	text-transform:capitalize;
+
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.footer-list li a:hover{
+	color: var(--black-color);
+}
+
+.address_info{
+	position:relative;
+	font-size:18px;
+	font-weight:400;
+	color:#626262;
+	margin-top:15px;
+}
+
+.address_info a{
+	position:relative;
+	font-weight:600;
+	font-size:24px;
+	line-height:32px;
+	margin-top:8px;
+	display:inline-block;
+	color:var(--color-twentytwo);
+}
+
+.address_info a:hover{
+	color:var(--black-color);
+}
+
+/* Footer Bottom */
+
+.footer-bottom{
+	position: relative;
+	padding: 40px 0px;
+	border-top:1px solid rgba(0,0,0,0.10);
+}
+
+.copyright{
+	position: relative;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--color-six);
+	text-transform:capitalize;
+}
+
+.footer-nav{
+	position: relative;
+}
+
+.footer-nav li{
+	position: relative;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.footer-nav li a{
+	position: relative;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--color-six);
+	text-transform:capitalize;
+}
+
+.footer-nav li a:hover{
+	color: var(--black-color);
+}
+
+.main-footer.style-two{
+	margin-top:-135px;
+}
+
+.main-footer.style-two .main-footer_icons{
+	top:34%;
+}
+
+.main-footer.style-two .inner-container{
+	padding-top:240px;
+}
+
+
+
+
+.main-footer.style-three{
+	margin-top:-135px;
+}
+
+.main-footer.style-three .main-footer_icons{
+	top:25%;
+}
+
+.main-footer.style-three .inner-container{
+	padding-top:240px;
+}

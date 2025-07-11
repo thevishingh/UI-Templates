@@ -1,0 +1,54 @@
+/*** 
+=============================================
+    Partner Style1 Css
+=============================================
+***/
+.partner-style1 {
+    position: relative;
+    display: block;
+    padding-bottom: 80px;
+    z-index: 10;
+}
+
+.partner-style1 .container {
+    max-width: 1770px;
+}
+
+.brand-content {
+    position: relative;
+}
+
+.single-partner-logo-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-partner-logo-box a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 180px;
+    height: 70px;
+    background: transparent;
+    margin: 0 auto;
+}
+
+.single-partner-logo-box a img {
+    position: relative;
+    display: inline-block !important;
+    opacity: 0.5;
+    width: auto !important;
+    transition: all 0.2s ease-in-out 0.1s;
+    border-radius: 8px;
+    filter: grayscale(70%);
+}
+
+.single-partner-logo-box:hover a img {
+    opacity: 1.0;
+    filter: grayscale(0%);
+    transition: all 0.8s ease-in-out 0.1s;
+}

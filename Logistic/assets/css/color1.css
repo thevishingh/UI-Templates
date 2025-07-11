@@ -1,0 +1,13 @@
+:root {
+    --thm-secondary: #CA1F27;
+    --thm-secondary-rgb: 202, 31, 39;
+    --thm-heading-font-color: #212121;
+    --thm-body-background: #ffffff;
+    --thm-black-bg: #212121;
+    --thm-black: #121212;
+}
+
+
+.body-white-bg {
+    background-color: var(--thm-body-background);
+}
