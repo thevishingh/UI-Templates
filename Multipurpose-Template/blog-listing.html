@@ -1,0 +1,922 @@
+<!doctype html>
+<!-- Martex - Tailwind CSS Software, SaaS & Startup Template design by elite-themes24 () -->
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en">
+   <![endif]-->
+   <!--[if IE 7 ]>
+   <html class="ie ie7" lang="en">
+      <![endif]-->
+      <!--[if IE 8 ]>
+      <html class="ie ie8" lang="en">
+         <![endif]-->
+         <!--[if (gte IE 9)|!(IE)]><!-->
+         <html lang="en">
+            
+<!-- Mirrored from martex-tailwindcss.ibthemespro.com/blog-listing.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jul 2025 11:28:15 GMT -->
+<head>
+               <meta charset="utf-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <meta name="author" content="elite-themes24">
+               <meta name="description" content="Martex - Tailwind CSS Software, SaaS & Startup Template">
+               <meta name="keywords"
+                  content="Responsive, HTML5, elite-themes24, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <!-- SITE TITLE -->
+               <title>Martex - Tailwind CSS Software, SaaS & Startup Template</title>
+               <!-- FAVICON AND TOUCH ICONS -->
+               <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+               <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+               <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+               <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+               <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+               <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+               <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
+               
+              <!-- GOOGLE FONTS -->
+              <link rel="preconnect" href="https://fonts.googleapis.com/">
+              <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+              
+               <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+               <!-- FONT ICONS -->
+               <link href="css/flaticon.css" rel="stylesheet">
+               <!-- PLUGINS STYLESHEET -->
+               <link href="css/menu.css" rel="stylesheet">
+               <link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+               <link href="css/magnific-popup.css" rel="stylesheet">
+               <link href="css/owl.carousel.min.css" rel="stylesheet">
+               <link href="css/owl.theme.default.min.css" rel="stylesheet">
+               <link href="css/lunar.css" rel="stylesheet">
+               <!-- ON SCROLL ANIMATION -->
+               <link href="css/animate.css" rel="stylesheet">
+               <!-- TEMPLATE CSS -->
+               <link href="style.css" rel="stylesheet">
+               <!-- Style Switcher CSS -->
+               <link href="css/colors/blue-theme.css" rel="stylesheet">
+               <link href="css/colors/crocus-theme.css" rel="alternate stylesheet" title="crocus-theme">
+               <link href="css/colors/green-theme.css" rel="alternate stylesheet" title="green-theme">
+               <link href="css/colors/magenta-theme.css" rel="alternate stylesheet" title="magenta-theme">
+               <link href="css/colors/pink-theme.css" rel="alternate stylesheet" title="pink-theme">
+               <link href="css/colors/purple-theme.css" rel="alternate stylesheet" title="purple-theme">
+               <link href="css/colors/skyblue-theme.css" rel="alternate stylesheet" title="skyblue-theme">
+               <link href="css/colors/red-theme.css" rel="alternate stylesheet" title="red-theme">
+               <link href="css/colors/violet-theme.css" rel="alternate stylesheet" title="violet-theme">
+            </head>
+            <body>
+               <!-- PRELOADER SPINNER
+                  ============================================= -->
+              <div id="loading" class="loading--theme  h-full w-full fixed z-[99999999] mt--0 top-0 bg-[#f5f5f9]">
+                <div id="loading-center" class="absolute h-[100px] w-[100px] mt-[-50px] ml-[-50px] animate-[loading-center-absolute_1s_infinite] left-2/4 top-2/4 lg:h-[90px] lg:w-[90px] lg:mt-[-45px] lg:ml-[-45px] md:h-[90px] md:w-[90px] md:mt-[-45px] md:ml-[-45px]"><span class="loader w-[100px] h-[100px] inline-block relative box-border animate-[rotation_1s_linear_infinite] rounded-[50%] border-2 border-solid border-[transparent_#888] after:content-[''] after:box-border after:absolute after:-translate-x-2/4 after:-translate-y-2/4 after:rounded-[50%] after:border-[50px] after:border-solid after:border-[transparent_rgba(30,30,30,0.15)] after:left-2/4 after:top-2/4 lg:w-[90px] lg:h-[90px] lg:after:border-[45px] lg:after:border-solid md:w-[90px] md:h-[90px] md:after:border-[45px] md:after:border-solid sm:w-[80px] sm:h-[80px] sm:after:border-[40px] sm:after:border-solid"></span></div>
+              </div>
+               <!-- STYLE SWITCHER
+                  ============================================= -->
+               <div id="stlChanger" class=" fixed z-[9999] text-[15px] overflow-hidden right-[-230px] cursor-pointer [transition:all_400ms_ease-in-out] rounded-none top-[100px] xsm:hidden">
+                  <div class="blockChanger bgChanger min-w-[280px] min-h-[280px] w-[230px]">
+                     <a href="#" class="chBut icon-xs w-[50px] h-[50px] absolute z-[1000000] text-center border [transition:all_300ms_ease-in-out] shadow-[0_0_2px_rgba(50,50,50,0.4)] pl-[2px] pr-0 py-0 rounded-[4px_0px_0px_4px] border-l-[none] border-solid border-[#ef2853] left-0 top-[30px] bg-[#ef2853]"><span class="flaticon-control-panel before:content-['\f1cf'] before:text-white before:!text-[2.15rem]"></span></a>
+                     <div class="chBody white-color w-[230px] relative border h-[425px] overflow-scroll overflow-x-hidden ml-[50px] rounded-[4px_0px_0px_4px] border-solid border-[#2b2e37] bg-[#2b2e37] [direction:rtl]">
+                        <div class="stBlock text-center" style="margin: 30px 20px 20px 26px;">
+                           <div class="stBgs">
+                              <p class="switch text-[18px] font-semibold tracking-[0] mb-[20px] font-Jakarta w-full text-white rounded px-[1.4rem] py-[0.4rem] border-2 border-solid border-white !leading-[1.6666]"></p>
+                              <p class="color--white text-[1.125rem] font-semibold tracking-[0] mb-[20px] font-Jakarta">Color Scheme</p>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('pink-theme', 60)"><img src="images/color-scheme/pink.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('purple-theme', 60)"><img src="images/color-scheme/purple.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('violet-theme', 60)"><img src="images/color-scheme/violet.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('skyblue-theme', 60)"><img src="images/color-scheme/skyblue.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('magenta-theme', 60)"><img src="images/color-scheme/magenta.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('crocus-theme', 60)"><img src="images/color-scheme/crocus.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('red-theme', 60)"><img src="images/color-scheme/red.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('green-theme', 60)"><img src="images/color-scheme/green.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                           </div>
+                        </div>
+                        <div class="stBlock text-center" style="margin: 0px 27px 25px 31px;">
+                           <a class="btn rounded-[4px] btn--theme hover--theme w-full leading-none mt-[15px] !px-[1.2rem] !py-[0.65rem]" href="javascript:chooseStyle('none', 60)">Reset
+                           Color</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- END SWITCHER -->
+               <!-- PAGE CONTENT
+                  ============================================= -->	
+               <div id="page" class="page font--jakarta">
+                  <!-- HEADER
+                     ============================================= -->
+				<header id="header" class="tra-menu navbar-dark inner-page-header white-scroll w-full block pt-0">
+					<div class="header-wrapper blog-header fixed z-[1030] top-0 inset-x-0">
+					   <!-- MOBILE HEADER -->
+					   <div class="wsmobileheader clearfix">
+						  <span class="smllogo md:!block md:!mt-[28px] md:!pl-[22px] sm:!block sm:!mt-[27px] sm:!pl-[18px] xsm:!block xsm:!mt-[27px] xsm:!pl-[16px]"><img class="md:w-auto  md:max-w-[inherit] md:max-h-[30px] sm:!w-auto sm:!max-w-[inherit] sm:!max-h-[30px] xsm:!w-auto xsm:!max-w-[inherit] xsm:!max-h-[30px]" src="images/logo-blog.png" alt="mobile-logo"></span>
+						  <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+					   </div>
+					   <!-- NAVIGATION MENU -->
+					   <div class="wsmainfull menu clearfix text-[#b1b7cd] p-0 !bg-transparent shadow-none px-0 !py-[20px] w-full h-auto z-[1031] [transition:all_450ms_ease-in-out]">
+						  <div class="wsmainwp clearfix">
+							 <!-- HEADER BLACK LOGO -->
+							 <div class="desktoplogo">
+								<a href="#blog-page" class="logo-black">
+								<img class="light-theme-img w-auto max-w-[inherit]  max-h-[30px] lg:max-h-[28px] inline-block" src="images/logo-blog.png" alt="logo">
+								<img class="dark-theme-img w-auto max-w-[inherit]  max-h-[30px] lg:max-h-[28px]" src="images/logo-blog-white.png" alt="logo">
+								</a>
+							 </div>
+							 <!-- HEADER WHITE LOGO -->
+							 <div class="desktoplogo">
+								<a href="#blog-page" class="logo-white">
+								   <img class=" w-auto max-w-[inherit]  max-h-[30px] lg:max-h-[28px] inline-block" src="images/logo-blog-white.png" alt="logo"></a>
+							 </div>
+							 <!-- MAIN MENU -->
+							 <nav class="wsmenu clearfix">
+								<ul class="wsmenu-list nav-theme">
+								   <!-- DROPDOWN SUB MENU -->
+								   <li aria-haspopup="true">
+									  <a href="#" class="h-link">Company <span
+										 class="wsarrow"></span></a>
+									  <ul class="sub-menu">
+										 <li aria-haspopup="true"><a href="about.html">About Us</a></li>
+										 <li aria-haspopup="true"><a href="careers.html">Careers <span
+											class="sm-info">4</span></a></li>
+										 <li aria-haspopup="true"><a href="pricing-1.html">Pricing</a></li>
+										 <li aria-haspopup="true"><a href="blog-listing.html">Our Blog</a></li>
+										 <li aria-haspopup="true"><a href="contacts.html">Contact Us</a></li>
+									  </ul>
+								   </li>
+								   <!-- SIMPLE NAVIGATION LINK -->
+								   <li class="nl-simple" aria-haspopup="true"><a href="projects.html" class="h-link">Case Studies</a>
+								   </li>
+								   <!-- SIMPLE NAVIGATION LINK -->
+								   <li class="nl-simple" aria-haspopup="true"><a href="pricing-1.html" class="h-link">Pricing</a></li>
+								   <!-- SIMPLE NAVIGATION LINK -->
+								   <li class="nl-simple" aria-haspopup="true"><a href="faqs.html" class="h-link">FAQs</a>
+								   </li>
+								   <!-- SIGN IN LINK -->
+								   <li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
+									  <a href="login-2.html" class="h-link">Sign In</a>
+								   </li>
+								   <!-- SIGN UP BUTTON -->
+								   <li class="nl-simple" aria-haspopup="true">
+									  <a href="signup-2.html" class="btn  !rounded-[4px]  btn--theme hover--theme last-link">Get
+									  Started</a>
+								   </li>
+								</ul>
+							 </nav>
+							 <!-- END MAIN MENU -->
+						  </div>
+					   </div>
+					   <!-- END NAVIGATION MENU -->
+					</div>
+					<!-- End header-wrapper -->
+				 </header>
+                  <!-- END HEADER -->
+                  <!-- BLOG POSTS LISTING
+                     ============================================= -->
+                  <section id="blog-page" class=" pb--60 pb-[60px] md:pb-[40px] lg:pb-[60px]  inner-page-hero blog-page-section pt-[180px] lg:pt-[160px] md:mt-[80px] md:pt-[70px]">
+                     <div class="container">
+                        <!-- WIDE BLOG POST -->
+                        <div class="blog-post wide-post wow fadeInUp mb-[100px] lg:mb-[80px] md:mb-[60px] xsm:mb-[40px]">
+                           <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]  items-center">
+                              <!-- BLOG POST IMAGE -->
+                              <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                                 <div class="blog-post-img pr-[15px] lg:pr-[10px] md:pr-0 xsm:mb-[30px]">
+                                    <img class="img-fluid rounded-[16px] " src="images/blog/post-11-img.jpg" alt="blog-post-image">
+                                 </div>
+                              </div>
+                              <!-- BLOG POST TEXT -->
+                              <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                                 <div class="blog-post-txt pl-[15px] lg:pl-[10px] md:pl-0">
+                                    <!-- Post Tag -->
+                                    <span class="post-tag block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px] color--blue-400">Social Media Marketing</span>	
+                                    <!-- Post Link -->
+                                    <h3 class="s-38 w-700 text-[2.375rem] lg:text-[2.25rem] md:text-[1.98529rem] sm:text-[1.4375rem] xsm:text-[1.6875rem] font-bold leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                       <a class="text-[#353f4f] hover:underline" href="single-post.html">Congue magna tempor and ipsum Martex sapien turpis 
+                                       laoreet augue
+                                       </a>
+                                    </h3>
+                                    <!-- Text -->
+                                    <p class=" mb-0">Aliqum mullam blandit vitae and tempor sapien and donec lipsum gravida porta undo 
+                                       velna dolor libero a risus aliquet tempus posuere a tempor velna tempus posuere dolor
+                                    </p>
+                                    <!-- Post Meta -->
+                                    <div class="blog-post-meta mt--30 mt-[30px]">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Martex Team</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="text-[#353f4f] leading-none mb-0 xsm:mb-0">Apr 28, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- END BLOG POST TEXT -->
+                           </div>
+                           <!-- End row -->
+                        </div>
+                        <!-- END WIDE BLOG POST -->
+                        <!-- POSTS WRAPPER -->
+                        <div class="posts-wrapper">
+                           <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]">
+                              <!-- BLOG POST #1 -->
+                              <div class="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                                 <div class="blog-post wow fadeInUp mb-[40px]">
+                                    <!-- BLOG POST IMAGE -->
+                                    <div class="blog-post-img mb-[35px]">
+                                       <img class="img-fluid rounded-[16px] " src="images/blog/post-1-img.jpg" alt="blog-post-image">
+                                    </div>
+                                    <!-- BLOG POST TEXT -->
+                                    <div class="blog-post-txt">
+                                       <!-- Post Tag -->
+                                       <span class="post-tag color--red-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Product News</span>	
+                                       <!-- Post Link -->
+                                       <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                          <a class=" text-[#353f4f] hover:underline" href="single-post.html">Aliqum mullam porta blandit: lacus and sapien gravida</a>
+                                       </h6>
+                                       <!-- Text -->
+                                       <p class="mb-0">Egestas luctus vitae augue and ipsum ultrice quisque in cursus lacus feugiat congue diam ultrice laoreet sagittis</p>
+                                       <!-- Post Meta -->
+                                       <div class="blog-post-meta  mt-[20px] ">
+                                          <ul class="post-meta-list ico-10">
+                                             <li class="w-auto inline-block align-top clear-none">
+                                                <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Martex Team</p>
+                                             </li>
+                                             <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                                <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                             </li>
+                                             <li class="w-auto inline-block align-top clear-none">
+                                                <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Apr 23, 2023</p>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <!-- END BLOG POST TEXT -->
+                                 </div>
+                              </div>
+                              <!-- END BLOG POST #1 -->
+                              <!-- BLOG POST #2 -->
+                              <div class="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                                 <div class="blog-post wow fadeInUp mb-[40px]">
+                                    <!-- BLOG POST IMAGE -->
+                                    <div class="blog-post-img mb-[35px]">
+                                       <img class="img-fluid rounded-[16px] " src="images/blog/post-2-img.jpg" alt="blog-post-image">
+                                    </div>
+                                    <!-- BLOG POST TEXT -->
+                                    <div class="blog-post-txt">
+                                       <!-- Post Tag -->
+                                       <span class="post-tag color--green-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Community</span>	
+                                       <!-- Post Link -->
+                                       <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                          <a class=" text-[#353f4f] hover:underline" href="single-post.html">Porttitor cursus fusce neque CEO egestas cursus magna sapien and suscipit ipsum</a>
+                                       </h6>
+                                       <!-- Text -->
+                                       <p class="mb-0">Aliqum mullam ipsum vitae and blandit vitae tempor sapien and donec lipsum</p>
+                                       <!-- Post Meta -->
+                                       <div class="blog-post-meta  mt-[20px] ">
+                                          <ul class="post-meta-list ico-10">
+                                             <li class="w-auto inline-block align-top clear-none">
+                                                <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Miranda Green</p>
+                                             </li>
+                                             <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                                <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                             </li>
+                                             <li class="w-auto inline-block align-top clear-none">
+                                                <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Apr 09, 2023</p>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <!-- END BLOG POST TEXT -->
+                                 </div>
+                              </div>
+                              <!-- END BLOG POST #2 -->
+                              <!-- BLOG POST #3 -->
+                              <div class="lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                                 <div class="blog-post wow fadeInUp mb-[40px]">
+                                    <!-- BLOG POST IMAGE -->
+                                    <div class="blog-post-img mb-[35px] md:inline-block md:w-6/12 md:float-left">
+                                       <img class="img-fluid rounded-[16px] " src="images/blog/post-3-img.jpg" alt="blog-post-image">
+                                    </div>
+                                    <!-- BLOG POST TEXT -->
+                                    <div class="blog-post-txt md:inline-block md:w-6/12 md:float-none md:mt-[25px] md:pl-[25px]">
+                                       <!-- Post Tag -->
+                                       <span class="post-tag color--violet-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Freelancer Tips</span>	
+                                       <!-- Post Link -->
+                                       <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                          <a class=" text-[#353f4f] hover:underline" href="single-post.html">Cubilia laoreet ipsum augue eget egestas Martex magna</a>
+                                       </h6>
+                                       <!-- Text -->
+                                       <p class="mb-0">Luctus vitae egestas augue and ipsum ultrice quisque in cursus lacus feugiat egets congue ultrice sagittis laoreet</p>
+                                       <!-- Post Meta -->
+                                       <div class="blog-post-meta  mt-[20px] ">
+                                          <ul class="post-meta-list ico-10">
+                                             <li class="w-auto inline-block align-top clear-none">
+                                                <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Helen J.</p>
+                                             </li>
+                                             <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                                <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                             </li>
+                                             <li class="w-auto inline-block align-top clear-none">
+                                                <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Apr 01, 2023</p>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <!-- END BLOG POST TEXT -->
+                                 </div>
+                              </div>
+                              <!-- END BLOG POST #3 -->
+                           </div>
+                        </div>
+                        <!-- END POSTS WRAPPER -->
+                        <!-- BLOG POSTS CATEGORY --> 
+                        <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] ">
+                           <div class="flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                              <div class="posts-category ico-20 wow fadeInUp mt--40 mt-[40px] mb--60 mb-[60px] lg:mt-[20px] lg:mb-[40px] md:mt-[30px] md:mb-[40px] xsm:mt-[10px] xsm:mb-[30px]">
+                                 <h4 class="s-34 w-700 text-[2.125rem] lg:text-[2rem] md:text-[1.764705rem] sm:text-[1.81255rem] xsm:text-[1.5625rem] font-bold leading-none mb-0 font-Jakarta">Latest News <span class="flaticon-next relative top-px lg:top-[-1.5px] md:top-px sm:top-px xsm:top-[1.25px]"></span></h4>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- POSTS WRAPPER -->
+                        <div class="posts-wrapper">
+                        <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]">
+                           <!-- BLOG POST #1 -->
+                           <div class="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                              <div class="blog-post wow fadeInUp mb-[40px]">
+                                 <!-- BLOG POST IMAGE -->
+                                 <div class="blog-post-img mb-[35px]">
+                                    <img class="img-fluid rounded-[16px] " src="images/blog/post-4-img.jpg" alt="blog-post-image">
+                                 </div>
+                                 <!-- BLOG POST TEXT -->
+                                 <div class="blog-post-txt">
+                                    <!-- Post Tag -->
+                                    <span class="post-tag color--pink-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Tutorials</span>	
+                                    <!-- Post Link -->
+                                    <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                       <a class=" text-[#353f4f] hover:underline" href="single-post.html">Phasellus blandit justo undo aliquam vitae molestie nunc sapien augue justo aliquet</a>
+                                    </h6>
+                                    <!-- Text -->
+                                    <p class="mb-0">Aliqum mullam ipsum vitae and blandit vitae tempor sapien and donec lipsum</p>
+                                    <!-- Post Meta -->
+                                    <div class="blog-post-meta  mt-[20px] ">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Miranda Green</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Mar 20, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <!-- END BLOG POST TEXT -->
+                              </div>
+                           </div>
+                           <!-- END BLOG POST #1 -->
+                           <!-- BLOG POST #2 -->
+                           <div class="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                              <div class="blog-post wow fadeInUp mb-[40px]">
+                                 <!-- BLOG POST IMAGE -->
+                                 <div class="blog-post-img mb-[35px]">
+                                    <img class="img-fluid rounded-[16px] " src="images/blog/post-5-img.jpg" alt="blog-post-image">
+                                 </div>
+                                 <!-- BLOG POST TEXT -->
+                                 <div class="blog-post-txt">
+                                    <!-- Post Tag -->
+                                    <span class="post-tag color--violet-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Freelancer Tips</span>	
+                                    <!-- Post Link -->
+                                    <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                       <a class=" text-[#353f4f] hover:underline" href="single-post.html">Blandit justo phasellus undo aliquam diam molestie vitae</a>
+                                    </h6>
+                                    <!-- Text -->
+                                    <p class="mb-0">Luctus vitae egestas augue and ipsum ultrice quisque in cursus lacus feugiat egets congue ultrice sagittis laoreet</p>
+                                    <!-- Post Meta -->
+                                    <div class="blog-post-meta  mt-[20px] ">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Martex Team</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Mar 13, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <!-- END BLOG POST TEXT -->
+                              </div>
+                           </div>
+                           <!-- END BLOG POST #2 -->
+                           <!-- BLOG POST #3 -->
+                           <div class="lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                              <div class="blog-post wow fadeInUp mb-[40px]">
+                                 <!-- BLOG POST IMAGE -->
+                                 <div class="blog-post-img mb-[35px] md:inline-block md:w-6/12 md:float-left">
+                                    <img class="img-fluid rounded-[16px] " src="images/blog/post-6-img.jpg" alt="blog-post-image">
+                                 </div>
+                                 <!-- BLOG POST TEXT -->
+                                 <div class="blog-post-txt md:inline-block md:w-6/12 md:float-none md:mt-[25px] md:pl-[25px]">
+                                    <!-- Post Tag -->
+                                    <span class="post-tag color--blue-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Extensions</span>	
+                                    <!-- Post Link -->
+                                    <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                       <a class=" text-[#353f4f] hover:underline" href="single-post.html">Cursus porttitor fusce neque CEO egestas cursus magna sapien and ipsum suscipit</a>
+                                    </h6>
+                                    <!-- Text -->
+                                    <p class="mb-0">Mullam ipsum aliqum vitae and blandit vitae tempor sapien and lipsum donec</p>
+                                    <!-- Post Meta -->
+                                    <div class="blog-post-meta  mt-[20px] ">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Martex Team</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Feb 23, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <!-- END BLOG POST TEXT -->
+                              </div>
+                           </div>
+                           <!-- END BLOG POST #3 -->
+                        </div>
+                           <!-- End row -->
+                        </div>
+                        <!-- END POSTS WRAPPER -->
+                        <!-- SQUARE BLOG POST -->
+                        <div class="blog-post square-post mt--60 mt-[60px] mb-[40px] lg:mt-[20px] lg:mb-[40px] md:mt-[30px] md:mb-[40px] xsm:mt-[10px] xsm:mb-[40px]">
+                           <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] ">
+                              <div class="col flex-[1_0_0%] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                                 <!-- SQUARE BLOG POST WRAPPER -->
+                                 <div class="square-post-wrapper bg--black-400 block-shadow rounded-[16px] wow fadeInUp overflow-hidden shadow-[0_4px_12px_0_rgba(0,0,0,0.08)]">
+                                    <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] items-center">
+                                       <!-- BLOG POST TEXT -->
+                                       <div class="md:w-6/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full order-last order-md-2 md:order-2 lg:order-2 xl:order-2">
+                                          <div class="blog-post-txt color--white p-[0_30px_0_60px] lg:pl-[50px] lg:pr-[30px] lg:py-0 md:pl-[30px] md:pr-[10px] md:py-0sm:px-[35px] sm:py-[45px] xsm:px-[20px] xsm:py-[40px]">
+                                             <!-- Post Tag -->
+                                             <span class="post-tag block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px] color--pink-400">Video Tutorials</span>	
+                                             <!-- Post Link -->
+                                             <h4 class="s-34 w-700 text-[2.125rem] lg:text-[2rem] md:text-[1.764705rem] sm:text-[1.81255rem] xsm:text-[1.5625rem] font-bold mb-[20px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                                <a class="text-[#f8f9f9] hover:!text-white hover:underline" href="single-post.html">Lipsum sodales sapien Martex aliquet blandit 
+                                                augue gravida posuere
+                                                </a>
+                                             </h4>
+                                             <!-- Text -->
+                                             <p class=" mb-0">Aliqum mullam blandit vitae and tempor sapien and donec lipsum gravida porta 
+                                                undo velna dolor libero risus aliquet tempus posuere vitae tempor
+                                             </p>
+                                             <!-- Post Meta -->
+                                              <div class="blog-post-meta mt--30 mt-[30px]">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="w-500 font-medium text-[#f8f9f9] leading-none mb-0 xsm:mb-0">By Martex Team</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#f8f9f9] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm text-[#f8f9f9] leading-none mb-0 xsm:mb-0">Apr 14, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                          </div>
+                                       </div>
+                                       <!-- BLOG POST IMAGE -->
+                                       <div class="md:w-6/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full order-first order-md-2 md:order-2 lg:order-2 xl:order-2">
+                                          <div class="blog-post-img video-preview relative text-center">
+                                             <!-- Play Icon --> 
+                                             <a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
+                                                <div class="video-btn video-btn-xl w-[6.25rem] h-[6.25rem] mt-[-3.125rem] ml-[-3.125rem] md:w-28 md:h-28 md:mt-[-3.5rem] md:ml-[-3.5rem] absolute inline-block text-center text-white rounded-[100%] left-2/4 top-2/4 before:content-[''] before:absolute before:left-[-5px] before:right-[-5px] before:top-[-5px] before:bottom-[-5px] before:opacity-0 before:[transition:all_400ms_ease-in-out] before:rounded-[50%] before:bg-[rgba(255,255,255,0.2)] group hover:before:opacity-75  hover:before:left-[-1.5rem]  hover:before:right-[-1.5rem]  hover:before:top-[-1.5rem]  hover:before:bottom-[-1.5rem] bg--pink-400">
+                                                   <div class="video-block-wrapper [transition:all_400ms_ease-in-out] group-hover:scale-95"><span class="flaticon-play-button"></span></div>
+                                                </div>
+                                             </a>
+                                             <!-- Preview Image --> 
+                                             <img class="img-fluid" src="images/blog/post-10-img.jpg" alt="video-preview">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!-- End row -->
+                                 </div>
+                                 <!-- END SQUARE BLOG POST WRAPPER -->
+                              </div>
+                           </div>
+                           <!-- End row -->
+                        </div>
+                        <!-- END SQUARE BLOG POST -->
+                        <!-- BLOG POSTS CATEGORY --> 
+                        <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] ">
+                           <div class="flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                              <div class="posts-category ico-20 wow fadeInUp mt--40 mt-[40px] mb--60 mb-[60px] lg:mt-[20px] lg:mb-[40px] md:mt-[30px] md:mb-[40px] xsm:mt-[10px] xsm:mb-[30px]">
+                                 <h4 class="s-34 w-700 text-[2.125rem] lg:text-[2rem] md:text-[1.764705rem] sm:text-[1.81255rem] xsm:text-[1.5625rem] font-bold leading-none mb-0 font-Jakarta">All Stories <span class="flaticon-next relative top-px lg:top-[-1.5px] md:top-px sm:top-px xsm:top-[1.25px]"></span></h4>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- POSTS WRAPPER -->
+                        <div class="posts-wrapper">
+                        <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]">
+                           <!-- BLOG POST #1 -->
+                           <div class="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                              <div class="blog-post wow fadeInUp mb-[40px]">
+                                 <!-- BLOG POST IMAGE -->
+                                 <div class="blog-post-img mb-[35px]">
+                                    <img class="img-fluid rounded-[16px] " src="images/blog/post-7-img.jpg" alt="blog-post-image">
+                                 </div>
+                                 <!-- BLOG POST TEXT -->
+                                 <div class="blog-post-txt">
+                                    <!-- Post Tag -->
+                                    <span class="post-tag color--red-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Product News</span>	
+                                    <!-- Post Link -->
+                                    <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                       <a class=" text-[#353f4f] hover:underline" href="single-post.html">Phasellus blandit justo undo aliquam diam vitae molestie</a>
+                                    </h6>
+                                    <!-- Text -->
+                                    <p class="mb-0">Egestas luctus vitae augue and ipsum ultrice quisque in cursus lacus feugiat congue diam ultrice laoreet sagittis</p>
+                                    <!-- Post Meta -->
+                                    <div class="blog-post-meta  mt-[20px] ">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Martex Team</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Feb 02, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <!-- END BLOG POST TEXT -->
+                              </div>
+                           </div>
+                           <!-- END BLOG POST #1 -->
+                           <!-- BLOG POST #2 -->
+                           <div class="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                              <div class="blog-post wow fadeInUp mb-[40px]">
+                                 <!-- BLOG POST IMAGE -->
+                                 <div class="blog-post-img mb-[35px]">
+                                    <img class="img-fluid rounded-[16px] " src="images/blog/post-8-img.jpg" alt="blog-post-image">
+                                 </div>
+                                 <!-- BLOG POST TEXT -->
+                                 <div class="blog-post-txt">
+                                    <!-- Post Tag -->
+                                    <span class="post-tag color--violet-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Freelancer Tips</span>	
+                                    <!-- Post Link -->
+                                    <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                       <a class=" text-[#353f4f] hover:underline" href="single-post.html">
+                                          Porttitor cursus fusce neque CEO egestas cursus magna sapien and suscipit ipsum</a>
+                                    </h6>
+                                    <!-- Text -->
+                                    <p class="mb-0">Aliqum mullam ipsum vitae and blandit vitae tempor sapien and donec lipsum</p>
+                                    <!-- Post Meta -->
+                                    <div class="blog-post-meta  mt-[20px] ">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Miranda Green</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Jan 26, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <!-- END BLOG POST TEXT -->
+                              </div>
+                           </div>
+                           <!-- END BLOG POST #2 -->
+                           <!-- BLOG POST #3 -->
+                           <div class="lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+                              <div class="blog-post wow fadeInUp mb-[40px]">
+                                 <!-- BLOG POST IMAGE -->
+                                 <div class="blog-post-img mb-[35px] md:inline-block md:w-6/12 md:float-left">
+                                    <img class="img-fluid rounded-[16px] " src="images/blog/post-9-img.jpg" alt="blog-post-image">
+                                 </div>
+                                 <!-- BLOG POST TEXT -->
+                                 <div class="blog-post-txt md:inline-block md:w-6/12 md:float-none md:mt-[25px] md:pl-[25px]">
+                                    <!-- Post Tag -->
+                                    <span class="post-tag color--green-400 block text-[0.75rem] font-semibold tracking-[0] uppercase mb-[20px] font-Jakarta lg:text-[0.85rem] lg:mb-[15px] md:text-[0.85rem] md:mb-[12px] xsm:text-[0.825rem] xsm:mb-[14px]">Community</span>	
+                                    <!-- Post Link -->
+                                    <h6 class="s-20 w-700 text-[1.25rem] lg:text-[1.18755rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[15px] lg:mb-[12px] md:mb-[12px] sm:mb-[18px] xsm:mb-[14px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">
+                                       <a class=" text-[#353f4f] hover:underline" href="single-post.html">Aliqum mullam porta blandit: lacus and sapien gravida</a>
+                                    </h6>
+                                    <!-- Text -->
+                                    <p class="mb-0">Luctus vitae egestas augue and ipsum ultrice quisque in cursus lacus feugiat egets congue ultrice sagittis laoreet</p>
+                                    <!-- Post Meta -->
+                                    <div class="blog-post-meta  mt-[20px] ">
+                                       <ul class="post-meta-list ico-10">
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm w-500 font-medium text-[#353f4f] leading-none mb-0 xsm:mb-0">By Miranda Green</p>
+                                          </li>
+                                          <li class="meta-list-divider w-auto inline-block align-top clear-none relative -rotate-90 px-px py-0 top-0 lg:px-px lg:py-0 md:px-px md:py-0">
+                                             <p class=" text-[#353f4f] leading-none mb-0 xsm:mb-0"><span class="flaticon-minus"></span></p>
+                                          </li>
+                                          <li class="w-auto inline-block align-top clear-none">
+                                             <p class="p-sm text-[#353f4f] leading-none mb-0 xsm:mb-0">Jan 12, 2023</p>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <!-- END BLOG POST TEXT -->
+                              </div>
+                           </div>
+                           <!-- END BLOG POST #3 -->
+                        </div>
+                           <!-- End row -->
+                        </div>
+                        <!-- END POSTS WRAPPER -->
+                     </div>
+                     <!-- End container -->	
+                  </section>
+                  <!-- END BLOG POSTS LISTING -->
+                  <!-- PAGE PAGINATION
+                     ============================================= -->
+                  <div class="pb--100 pb-[100px] lg:pb-[80px] md:pb-[70px]  page-pagination theme-pagination">
+                     <div class="container">
+                        <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]">
+                           <div class="w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                              <nav aria-label="Page navigation">
+                                 <ul class="pagination ico-20 justify-center flex pl-0 [list-style:none]">
+                                    <li class="page-item disabled"><a class="page-link relative block text-[#6c757d] text-[1.1rem] font-medium bg-transparent rounded [transition:all_400ms_ease-in-out] m-[0_8px] p-[2px_14px] [border:2px_solid_transparent] hover:text-[#6c757d] hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#ccc] focus:text-[#6c757d] focus:bg-transparent focus:shadow-[0_0] focus:border-2 focus:border-solid focus:border-transparent xsm:text-[0.95rem] xsm:px-[10px] xsm:py-[2px]" href="#" tabindex="-1"><span class="flaticon-back"></span></a>
+                                    </li>
+                                    <li class="page-item active" aria-current="page"><a class="page-link relative block text-[#6c757d] text-[1.1rem] font-medium bg-transparent rounded [transition:all_400ms_ease-in-out] ml-[-1px] mr-[8px] p-[2px_14px] [border:2px_solid_transparent] hover:text-[#6c757d] hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#ccc] focus:text-[#6c757d] focus:bg-transparent focus:shadow-[0_0] focus:border-2 focus:border-solid focus:border-transparent xsm:text-[0.95rem] xsm:px-[10px] xsm:py-[2px]" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link relative block text-[#6c757d] text-[1.1rem] font-medium bg-transparent rounded [transition:all_400ms_ease-in-out] ml-[-1px] mr-[8px] p-[2px_14px] [border:2px_solid_transparent] hover:text-[#6c757d] hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#ccc] focus:text-[#6c757d] focus:bg-transparent focus:shadow-[0_0] focus:border-2 focus:border-solid focus:border-transparent xsm:text-[0.95rem] xsm:px-[10px] xsm:py-[2px]" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link relative block text-[#6c757d] text-[1.1rem] font-medium bg-transparent rounded [transition:all_400ms_ease-in-out] ml-[-1px] mr-[8px] p-[2px_14px] [border:2px_solid_transparent] hover:text-[#6c757d] hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#ccc] focus:text-[#6c757d] focus:bg-transparent focus:shadow-[0_0] focus:border-2 focus:border-solid focus:border-transparent xsm:text-[0.95rem] xsm:px-[10px] xsm:py-[2px]" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link relative block text-[#6c757d] text-[1.1rem] font-medium bg-transparent rounded [transition:all_400ms_ease-in-out] ml-[-1px] mr-[8px] p-[2px_14px] [border:2px_solid_transparent] hover:text-[#6c757d] hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#ccc] focus:text-[#6c757d] focus:bg-transparent focus:shadow-[0_0] focus:border-2 focus:border-solid focus:border-transparent xsm:text-[0.95rem] xsm:px-[10px] xsm:py-[2px]" href="#" aria-label="Next"><span class="flaticon-next"></span></a></li>
+                                 </ul>
+                              </nav>
+                           </div>
+                        </div>
+                        <!-- End row -->	
+                     </div>
+                     <!-- End container -->
+                  </div>
+                  <!-- END PAGE PAGINATION -->
+                  <!-- DIVIDER LINE -->
+                  <hr class="divider w-full h-px bg-transparent bg-[linear-gradient(90deg,rgba(206,211,246,0)_0,#bbb_38%,#bbb_64%,rgba(206,211,246,0)_99%)] opacity-40 m-0 [border:none]">
+                  <!-- NEWSLETTER-1
+                     ============================================= -->
+                  <section id="newsletter-1" class="newsletter-section">
+                     <div class="newsletter-overlay py-[60px] lg:py-[45px] md:text-center md:pt-[40px] md:pb-[30px] md:px-[18%] sm:pt-[50px] sm:pb-[40px] xsm:pt-[50px] xsm:pb-[40px]">
+                        <div class="container">
+                           <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]  items-center row-cols-1 row-cols-lg-2">
+                              <!-- NEWSLETTER TEXT -->	
+                              <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                                 <div class="newsletter-txt">
+                                    <h4 class="s-34 w-700 text-[2.125rem] lg:text-[2rem] md:text-[1.764705rem] font-bold leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4] mb-0 md:mb-[22px] md:px-[10%] md:py-0 sm:text-[2.0625rem] sm:mb-[30px] sm:px-[5%] sm:py-0 xsm:text-[1.75rem] xsm:mb-[25px] xsm:p-0">Stay up to date with our news, ideas and updates</h4>
+                                 </div>
+                              </div>
+                              <!-- NEWSLETTER FORM -->
+                              <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                                 <form class="newsletter-form mt-[30px] pl-[15%] lg:mt-[25px] lg:pl-[8%] md:mt-0 md:px-[10%] md:py-0 sm:!px-[10%] sm:py-0 xsm:!px-[5%] xsm:py-0 block">
+                                    <div class="input-group relative flex flex-wrap items-stretch w-full">
+                                       <input type="email" autocomplete="off" class="form-control h-[54px] text-[0.975rem] lg:text-[0.975rem] md:text-[1.0625rem] bg-white border text-[#353f4f] font-normal shadow-none mr-3 p-[0_15px] rounded-[6px] border-solid border-[#ccc] focus:bg-white focus:shadow-none focus:border-[#1680fb] lg:h-[50px] md:h-[46px] md:mr-[8px] placeholder:text-[#aaa] focus:[outline:0] sm:h-[54px] sm:text-[1.0625rem] xsm:h-[54px] xsm:text-[1.0625rem] relative flex-[1_1_auto] w-[1%] min-w-0" placeholder="Your email address" required id="s-email">								
+                                       <span class="input-group-btn">
+                                       <button type="submit" class="btn btn--theme hover--theme !h-[54px] !text-[0.925rem] !px-[1.3rem] !py-[0.7rem] lg:!h-[50px] lg:!text-[0.925rem] lg:!px-[1.3rem] lg:!py-[0.7rem] md:!h-[46px] md:!text-[1.0625rem] md:!px-[1.3rem] md:!py-[0.7rem] sm:!h-[54px] sm:!text-[1.0625rem] xsm:!h-[54px] xsm:!text-[1.0625rem]">Subscribe Now</button>
+                                       </span>										
+                                    </div>
+                                    <!-- Newsletter Form Notification -->	
+                                    <label for="s-email" class="form-notification"></label>
+                                 </form>
+                              </div>
+                              <!-- END NEWSLETTER FORM -->
+                           </div>
+                           <!-- End row -->
+                        </div>
+                        <!-- End container -->	
+                     </div>
+                     <!-- End newsletter-overlay -->
+                  </section>
+					<!-- End newsletter-overlay -->
+				 </section>
+                  <!-- END NEWSLETTER-1 -->
+                  <!-- DIVIDER LINE -->
+                  <hr class="divider w-full h-px bg-transparent bg-[linear-gradient(90deg,rgba(206,211,246,0)_0,#bbb_38%,#bbb_64%,rgba(206,211,246,0)_99%)] opacity-40 m-0 [border:none]">
+                  <!-- FOOTER-3
+                     ============================================= -->
+				   <footer id="footer-3" class=" pt--100 pt-[100px] lg:pt-[80px] md:pt-[70px] footer pb-[50px] lg:pb-[35px] md:pb-[25px] sm:pb-[30px] xsm:pb-[30px]">
+					<div class="container">
+					   <!-- FOOTER CONTENT -->
+					   <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] ">
+						  <!-- FOOTER LOGO -->
+						  <div class="xl:w-3/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+							 <div class="footer-info mb-[40px] lg:mb-[50px]">
+								<img class="footer-logo w-auto max-w-[inherit] max-h-[40px] lg:max-h-[34px] md:max-h-[33px] sm:max-h-[38px] xsm:max-h-[37px]" src="images/logo-blue.png" alt="footer-logo">
+								<img class="footer-logo-dark hidden w-auto max-w-[inherit] max-h-[40px] lg:max-h-[34px] md:max-h-[33px] sm:max-h-[38px] xsm:max-h-[37px]" src="images/logo-blue-white.png" alt="footer-logo">
+							 </div>
+						  </div>
+						  <!-- FOOTER LINKS -->
+						  <div class="sm:w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+							 <div class="footer-links mb-[40px] fl-1">
+								<!-- Title -->
+								<h6 class="s-17 w-700 text-[1.0625rem] lg:!text-[1.0625rem] leading-none mb-[25px] lg:mb-[20px] md:!text-[1.17647rem] md:mb-[16px] sm:!text-[1.21875rem] sm:mb-[20px] xsm:!text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold">Company</h6>
+								<!-- Links -->
+								<ul class="foo-links clearfix">
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="about.html">About Us</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="careers.html">Careers</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="blog-listing.html">Our Blog</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="contacts.html">Contact Us</a></p>
+								   </li>
+								</ul>
+							 </div>
+						  </div>
+						  <!-- END FOOTER LINKS -->	
+						  <!-- FOOTER LINKS -->
+						  <div class="sm:w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+							 <div class="footer-links mb-[40px] fl-2">
+								<!-- Title -->
+								<h6 class="s-17 w-700 text-[1.0625rem] lg:!text-[1.0625rem] leading-none mb-[25px] lg:mb-[20px] md:!text-[1.17647rem] md:mb-[16px] sm:!text-[1.21875rem] sm:mb-[20px] xsm:!text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold">Product</h6>
+								<!-- Links -->
+								<ul class="foo-links clearfix">
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="features.html">Integration</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="reviews.html">Customers</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="pricing-1.html">Pricing</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="help-center.html">Help Center</a></p>
+								   </li>
+								</ul>
+							 </div>
+						  </div>
+						  <!-- END FOOTER LINKS -->	
+						  <!-- FOOTER LINKS -->
+						  <div class="sm:w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+							 <div class="footer-links mb-[40px] fl-3 lg:pl-[28%]">
+								<!-- Title -->
+								<h6 class="s-17 w-700 text-[1.0625rem] lg:!text-[1.0625rem] leading-none mb-[25px] lg:mb-[20px] md:!text-[1.17647rem] md:mb-[16px] sm:!text-[1.21875rem] sm:mb-[20px] xsm:!text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold">Legal</h6>
+								<!-- Links -->
+								<ul class="foo-links clearfix">
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="terms.html">Terms of Use</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="privacy.html">Privacy Policy</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="cookies.html">Cookie Policy</a></p>
+								   </li>
+								   <li class=" w-auto block align-top clear-none m-0 p-0">
+									  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="#">Site Map</a></p>
+								   </li>
+								</ul>
+							 </div>
+						  </div>
+						  <!-- END FOOTER LINKS -->	
+						  <!-- FOOTER LINKS -->
+						  <div class="sm:w-6/12 md:w-3/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+							 <div class="footer-links mb-[40px] fl-4">
+								<!-- Title -->
+								<h6 class="s-17 w-700 text-[1.0625rem] lg:!text-[1.0625rem] leading-none mb-[25px] lg:mb-[20px] md:!text-[1.17647rem] md:mb-[16px] sm:!text-[1.21875rem] sm:mb-[20px] xsm:!text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold">Connect With Us</h6>
+								<!-- Mail Link -->
+								<p class="footer-mail-link ico-25 ml-0 mb-[20px] lg:mb-[14px] md:mb-[10px]">
+								   <a class="font-normal" href="mailto:yourdomain@mail.com">hello@yourdomain.com</a>
+								</p>
+								<!-- Social Links -->	
+								<ul class="footer-socials ico-25 text-center clearfix inline-block m-0">
+								   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-facebook"></span></a></li>
+								   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-twitter"></span></a></li>
+								   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-github"></span></a></li>
+								   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-dribbble"></span></a></li>
+								</ul>
+							 </div>
+						  </div>
+						  <!-- END FOOTER LINKS -->	
+					   </div>
+					   <!-- END FOOTER CONTENT -->
+					   <hr class=" mt-[30px] mb-[50px] lg:mt-[10px] lg:lg:mb-[35px] md:mt-[5px] md:mb-[25px] sm:mt-[15px] sm:mb-[30px] xsm:mt-[5px] xsm:mb-[30px]">
+					   <!-- FOOTER DIVIDER LINE -->
+					   <!-- BOTTOM FOOTER -->
+					   <div class="bottom-footer">
+						  <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]  row-cols-1 row-cols-md-2 items-center">
+							 <!-- FOOTER COPYRIGHT -->
+							 <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+								<div class="footer-copyright">
+								   <p class="p-sm mb-0">&copy; 2025 Martex. <span>All Rights Reserved</span></p>
+								</div>
+							 </div>
+							 <!-- FOOTER SECONDARY LINK -->
+							 <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+								<div class="bottom-secondary-link ico-15 text-right text-end">
+								   <p class="p-sm mb-0"><a href="https://themeforest.net/user/elite-themes24">Made with 
+									  <span class="flaticon-heart color--pink-400 relative px-[2px] py-0 top-px sm:px-[2px] sm:py-0 sm:top-[1.5px] xsm:px-[2px] xsm:py-0 xsm:top-[1.5px]"></span> by @elite-themes24</a>
+								   </p>
+								</div>
+							 </div>
+						  </div>
+						  <!-- End row -->
+					   </div>
+					   <!-- END BOTTOM FOOTER -->
+					</div>
+					<!-- End container -->	
+				 </footer>
+                  <!-- END FOOTER-3 -->	
+               </div>
+               <!-- END PAGE CONTENT -->	
+               <!-- EXTERNAL SCRIPTS
+                  ============================================= -->	
+               <script src="js/jquery-3.7.0.min.js"></script>
+               <script src="js/bootstrap.min.js"></script>	
+               <script src="js/modernizr.custom.js"></script>
+               <script src="js/jquery.easing.js"></script>
+               <script src="js/jquery.appear.js"></script>
+               <script src="js/menu.js"></script>
+               <script src="js/owl.carousel.min.js"></script>
+               <script src="js/pricing-toggle.js"></script>
+               <script src="js/jquery.magnific-popup.min.js"></script>
+               <script src="js/request-form.js"></script>	
+               <script src="js/jquery.validate.min.js"></script>
+               <script src="js/jquery.ajaxchimp.min.js"></script>	
+               <script src="js/popper.min.js"></script>
+               <script src="js/lunar.js"></script>
+               <script src="js/wow.js"></script>
+               <!-- Custom Script -->		
+               <script src="js/custom.js"></script>
+               <script>
+                  $(document).on({
+                      "contextmenu": function (e) {
+                          console.log("ctx menu button:", e.which); 
+                  
+                          // Stop the context menu
+                          e.preventDefault();
+                      },
+                      "mousedown": function(e) { 
+                          console.log("normal mouse down:", e.which); 
+                      },
+                      "mouseup": function(e) { 
+                          console.log("normal mouse up:", e.which); 
+                      }
+                  });
+               </script>
+               <script>
+                  $(function() {
+                    $(".switch").click(function() {
+                      $("body").toggleClass("theme--dark");
+                  	    if( $( "body" ).hasClass( "theme--dark" )) {
+                                	$( ".switch" ).text( "Light Mode" );
+                            	} else {
+                                	$( ".switch" ).text( "Dark Mode" );
+                            	}
+                      });
+                  });
+               </script>
+               <script>
+                  $(document).ready(function() {
+                            if( $( "body" ).hasClass( "theme--dark" )) {
+                                $( ".switch" ).text( "Light Mode" );
+                            } else {
+                                $( ".switch" ).text( "Dark Mode" );
+                            }
+                        });
+               </script>
+               <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->															
+               <!--
+                  <script>
+                  	var _gaq = _gaq || [];
+                  	_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+                  	_gaq.push(['_trackPageview']);
+                  
+                  	(function() {
+                  		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                  		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                  		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                  	})();
+                  </script>
+                  -->	
+               <script src="js/changer.js"></script>
+               <script defer src="js/styleswitch.js"></script>	
+            </body>
+         
+<!-- Mirrored from martex-tailwindcss.ibthemespro.com/blog-listing.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jul 2025 11:28:22 GMT -->
+</html>

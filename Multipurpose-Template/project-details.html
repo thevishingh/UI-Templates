@@ -1,0 +1,716 @@
+<!doctype html>
+<!-- Martex - Tailwind CSS Software, SaaS & Startup Template design by elite-themes24 () -->
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en">
+   <![endif]-->
+   <!--[if IE 7 ]>
+   <html class="ie ie7" lang="en">
+      <![endif]-->
+      <!--[if IE 8 ]>
+      <html class="ie ie8" lang="en">
+         <![endif]-->
+         <!--[if (gte IE 9)|!(IE)]><!-->
+         <html lang="en">
+            
+<!-- Mirrored from martex-tailwindcss.ibthemespro.com/project-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jul 2025 11:28:08 GMT -->
+<head>
+               <meta charset="utf-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <meta name="author" content="elite-themes24">
+               <meta name="description" content="Martex - Tailwind CSS Software, SaaS & Startup Template">
+               <meta name="keywords"
+                  content="Responsive, HTML5, elite-themes24, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <!-- SITE TITLE -->
+               <title>Martex - Tailwind CSS Software, SaaS & Startup Template</title>
+               <!-- FAVICON AND TOUCH ICONS -->
+               <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+               <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+               <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+               <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+               <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+               <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+               <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
+               
+              <!-- GOOGLE FONTS -->
+              <link rel="preconnect" href="https://fonts.googleapis.com/">
+              <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+              
+               <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+               <!-- FONT ICONS -->
+               <link href="css/flaticon.css" rel="stylesheet">
+               <!-- PLUGINS STYLESHEET -->
+               <link href="css/menu.css" rel="stylesheet">
+               <link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+               <link href="css/magnific-popup.css" rel="stylesheet">
+               <link href="css/owl.carousel.min.css" rel="stylesheet">
+               <link href="css/owl.theme.default.min.css" rel="stylesheet">
+               <link href="css/lunar.css" rel="stylesheet">
+               <!-- ON SCROLL ANIMATION -->
+               <link href="css/animate.css" rel="stylesheet">
+               <!-- TEMPLATE CSS -->
+               <link href="style.css" rel="stylesheet">
+               <!-- Style Switcher CSS -->
+               <link href="css/colors/blue-theme.css" rel="stylesheet">
+               <link href="css/colors/crocus-theme.css" rel="alternate stylesheet" title="crocus-theme">
+               <link href="css/colors/green-theme.css" rel="alternate stylesheet" title="green-theme">
+               <link href="css/colors/magenta-theme.css" rel="alternate stylesheet" title="magenta-theme">
+               <link href="css/colors/pink-theme.css" rel="alternate stylesheet" title="pink-theme">
+               <link href="css/colors/purple-theme.css" rel="alternate stylesheet" title="purple-theme">
+               <link href="css/colors/skyblue-theme.css" rel="alternate stylesheet" title="skyblue-theme">
+               <link href="css/colors/red-theme.css" rel="alternate stylesheet" title="red-theme">
+               <link href="css/colors/violet-theme.css" rel="alternate stylesheet" title="violet-theme">
+            </head>
+            <body>
+               <!-- PRELOADER SPINNER
+                  ============================================= -->
+              <div id="loading" class="loading--theme  h-full w-full fixed z-[99999999] mt--0 top-0 bg-[#f5f5f9]">
+                <div id="loading-center" class="absolute h-[100px] w-[100px] mt-[-50px] ml-[-50px] animate-[loading-center-absolute_1s_infinite] left-2/4 top-2/4 lg:h-[90px] lg:w-[90px] lg:mt-[-45px] lg:ml-[-45px] md:h-[90px] md:w-[90px] md:mt-[-45px] md:ml-[-45px]"><span class="loader w-[100px] h-[100px] inline-block relative box-border animate-[rotation_1s_linear_infinite] rounded-[50%] border-2 border-solid border-[transparent_#888] after:content-[''] after:box-border after:absolute after:-translate-x-2/4 after:-translate-y-2/4 after:rounded-[50%] after:border-[50px] after:border-solid after:border-[transparent_rgba(30,30,30,0.15)] after:left-2/4 after:top-2/4 lg:w-[90px] lg:h-[90px] lg:after:border-[45px] lg:after:border-solid md:w-[90px] md:h-[90px] md:after:border-[45px] md:after:border-solid sm:w-[80px] sm:h-[80px] sm:after:border-[40px] sm:after:border-solid"></span></div>
+              </div>
+               <!-- STYLE SWITCHER
+                  ============================================= -->
+               <div id="stlChanger" class=" fixed z-[9999] text-[15px] overflow-hidden right-[-230px] cursor-pointer [transition:all_400ms_ease-in-out] rounded-none top-[100px] xsm:hidden">
+                  <div class="blockChanger bgChanger min-w-[280px] min-h-[280px] w-[230px]">
+                     <a href="#" class="chBut icon-xs w-[50px] h-[50px] absolute z-[1000000] text-center transition-all duration-300 ease-[ease-in-out] shadow-[0_0_2px_rgba(50,50,50,0.4)] pl-[2px] pr-0 py-0 rounded-[4px_0px_0px_4px] ![border-left:none] [border:1px_solid_#ef2853] left-0 top-[30px] bg-[#ef2853]"><span class="flaticon-control-panel before:content-['\f1cf'] before:text-white before:!text-[2.15rem]"></span></a>
+                     <div class="chBody white-color w-[230px] relative border h-[425px] overflow-scroll overflow-x-hidden ml-[50px] rounded-[4px_0px_0px_4px] border-solid border-[#2b2e37] bg-[#2b2e37] [direction:rtl]">
+                        <div class="stBlock text-center" style="margin: 30px 20px 20px 26px;">
+                           <div class="stBgs">
+                              <p class="switch text-[18px] font-semibold tracking-[0] mb-[20px] font-Jakarta w-full text-white rounded px-[1.4rem] py-[0.4rem] border-2 border-solid border-white !leading-[1.6666]"></p>
+                              <p class="color--white text-[1.125rem] font-semibold tracking-[0] mb-[20px] font-Jakarta">Color Scheme</p>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('pink-theme', 60)"><img src="images/color-scheme/pink.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('purple-theme', 60)"><img src="images/color-scheme/purple.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('violet-theme', 60)"><img src="images/color-scheme/violet.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('skyblue-theme', 60)"><img src="images/color-scheme/skyblue.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('magenta-theme', 60)"><img src="images/color-scheme/magenta.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('crocus-theme', 60)"><img src="images/color-scheme/crocus.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('red-theme', 60)"><img src="images/color-scheme/red.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                              <a class=" no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]" href="javascript:chooseStyle('green-theme', 60)"><img src="images/color-scheme/green.jpg"
+                                 class=" w-[50px] h-[50px] rounded-[8px]" alt=""></a>
+                           </div>
+                        </div>
+                        <div class="stBlock text-center" style="margin: 0px 27px 25px 31px;">
+                           <a class="btn rounded-[4px] btn--theme hover--theme w-full leading-none mt-[15px] !px-[1.2rem] !py-[0.65rem]" href="javascript:chooseStyle('none', 60)">Reset
+                           Color</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- END SWITCHER -->
+               <!-- PAGE CONTENT
+                  ============================================= -->	
+               <div id="page" class="page font--jakarta">
+                  <!-- HEADER
+                     ============================================= -->
+				<header id="header" class="tra-menu navbar-dark inner-page-header white-scroll w-full block pt-0">
+					<div class="header-wrapper fixed z-[1030] top-0 inset-x-0">
+					   <!-- MOBILE HEADER -->
+					   <div class="wsmobileheader clearfix">
+						  <span class="smllogo md:!block md:!mt-[22px] md:!pl-[22px] sm:!block sm:!mt-[23px] sm:!pl-[18px] xsm:!block xsm:!mt-[23px] xsm:!pl-[16px]"><img class="md:w-auto  md:max-w-[inherit] md:max-h-[34px] sm:!w-auto sm:!max-w-[inherit] sm:!max-h-[34px] xsm:!w-auto xsm:!max-w-[inherit] xsm:!max-h-[34px]" src="images/logo-blue.png" alt="mobile-logo"></span>
+						  <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+					   </div>
+					   <!-- NAVIGATION MENU -->
+					   <div class="wsmainfull menu clearfix text-[#b1b7cd] p-0 !bg-transparent shadow-none px-0 !py-[20px] w-full h-auto z-[1031] [transition:all_450ms_ease-in-out]">
+						  <div class="wsmainwp clearfix">
+							 <!-- HEADER BLACK LOGO -->
+							 <div class="desktoplogo">
+								<a href="demo-1.html" class="logo-black">
+								<img class="light-theme-img w-auto max-w-[inherit] max-h-[38px] lg:max-h-[34px] inline-block" src="images/logo-blue.png" alt="logo">
+								<img class="dark-theme-img w-auto max-w-[inherit] max-h-[38px] lg:max-h-[34px]" src="images/logo-blue-white.png" alt="logo">
+								</a>
+							 </div>
+							 <!-- HEADER WHITE LOGO -->
+							 <div class="desktoplogo">
+								<a href="demo-1.html" class="logo-white">
+								   <img class=" w-auto max-w-[inherit] max-h-[38px] lg:max-h-[34px] inline-block" src="images/logo-blue-white.png" alt="logo"></a>
+							 </div>
+							 <!-- MAIN MENU -->
+							 <nav class="wsmenu clearfix">
+								<ul class="wsmenu-list nav-theme">
+								   <!-- DROPDOWN SUB MENU -->
+								   <li aria-haspopup="true">
+									  <a href="#" class="h-link">Company <span
+										 class="wsarrow"></span></a>
+									  <ul class="sub-menu">
+										 <li aria-haspopup="true"><a href="about.html">About Us</a></li>
+										 <li aria-haspopup="true"><a href="careers.html">Careers <span
+											class="sm-info">4</span></a></li>
+										 <li aria-haspopup="true"><a href="pricing-1.html">Pricing</a></li>
+										 <li aria-haspopup="true"><a href="blog-listing.html">Our Blog</a></li>
+										 <li aria-haspopup="true"><a href="contacts.html">Contact Us</a></li>
+									  </ul>
+								   </li>
+								   <!-- SIMPLE NAVIGATION LINK -->
+								   <li class="nl-simple" aria-haspopup="true"><a href="projects.html" class="h-link">Case
+									  Studies</a>
+								   </li>
+								   <!-- SIMPLE NAVIGATION LINK -->
+								   <li class="nl-simple" aria-haspopup="true"><a href="pricing-1.html" class="h-link">Pricing</a></li>
+								   <!-- SIMPLE NAVIGATION LINK -->
+								   <li class="nl-simple" aria-haspopup="true"><a href="faqs.html" class="h-link">FAQs</a>
+								   </li>
+								   <!-- SIGN IN LINK -->
+								   <li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
+									  <a href="login-2.html" class="h-link">Sign In</a>
+								   </li>
+								   <!-- SIGN UP BUTTON -->
+								   <li class="nl-simple" aria-haspopup="true">
+									  <a href="signup-2.html" class="btn  !rounded-[4px]  btn--theme hover--theme last-link">Get
+									  Started</a>
+								   </li>
+								</ul>
+							 </nav>
+							 <!-- END MAIN MENU -->
+						  </div>
+					   </div>
+					   <!-- END NAVIGATION MENU -->
+					</div>
+					<!-- End header-wrapper -->
+				 </header>
+                  <!-- END HEADER -->
+                  <!-- SINGLE PROJECT-1
+                     ============================================= -->
+                  <section id="project-1" class="gr--whitesmoke inner-page-hero single-project pt-[180px] lg:pt-[160px] md:mt-[80px] md:pt-[70px]">
+                     <div class="container">
+                        <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]  justify-center">
+                           <!-- PROJECT DISCRIPTION -->
+                           <div class="lg:w-11/12 xl:w-10/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                              <div class="project-description">
+                                 <!-- PROJECT TITLE -->
+                                 <div class="project-title mb-[80px] lg:mb-[60px] md:mb-[40px] sm:mb-[50px] xsm:mb-[40px]">
+                                    <!-- Title -->	
+                                    <h2 class="s-52 w-700 text-[3.25rem] lg:text-[3rem] md:text-[2.79411rem] sm:text-[2.375rem] xsm:text-[2.0625rem] font-bold  mb-[35px] pr-[5%] pb-[40px] [border-bottom:1px_solid_#ddd] lg:mb-[30px] lg:pb-[35px] md:mb-[25px] md:pr-[10%] md:pb-[30px] sm:mb-[30px] sm:pb-[35px] xsm:mb-[25px] xsm:pr-0 xsm:pb-[25px] leading-[1.25] font-Jakarta sm:leading-[1.35] xsm:leading-[1.35]">Online shopping concept for mobile app templates</h2>
+                                    <!-- Project Data -->
+                                    <div class="project-data">
+                                       <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] row-cols-1 row-cols-sm-2 row-cols-md-3">
+                                          <div class="col sm:w-6/12 md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                                             <p class="p-lg mb-[4px] sm:mb-[10px] xsm:mb-[5px]"><span class=" text-[#353f4f] font-medium">Category:</span> Development</p>
+                                          </div>
+                                          <div class="col sm:w-6/12 md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                                             <p class="p-lg mb-[4px] sm:mb-[10px] xsm:mb-[5px]"><span class=" text-[#353f4f] font-medium">Start Date:</span> 2023-02-28</p>
+                                          </div>
+                                          <div class="col sm:w-6/12 md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                                             <p class="p-lg mb-[4px] sm:mb-[10px] xsm:mb-[5px]"><span class=" text-[#353f4f] font-medium">Handover:</span> 2023-04-30</p>
+                                          </div>
+                                          <div class="col sm:w-6/12 md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                                             <p class="p-lg mb-[4px] sm:mb-[10px] xsm:mb-[5px]"><span class=" text-[#353f4f] font-medium">Client:</span> elite-themes24</p>
+                                          </div>
+                                          <div class="col sm:w-6/12 md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]">
+                                             <p class="p-lg mb-[4px] sm:mb-[10px] xsm:mb-[5px]"><a href="#" class="color--theme hover:text-[#353f4f]">www.website.com</a></p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!-- END PROJECT TITLE -->
+                                 <!-- PROJECT PREVIEW IMAGE  -->
+                                 <div class="project-priview-img  mb-[50px] lg:mb-[45px] md:mb-[30px] ">
+                                    <img class="img-fluid rounded-[16px] " src="images/projects/project-07.jpg" alt="project-preview">	
+                                 </div>
+                                 <!-- PROJECT TEXT -->
+                                 <div class="project-txt">
+                                    <!-- Text -->
+                                    <p>Integer congue sagittis augue egestas  velna purus purus magna nec suscipit and egestas 
+                                       magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue
+                                       luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque 
+                                       fusce cursus neque diam augue fusce sapien nulla a primis lacinia ipsum a molestie blandit 
+                                       and justo an aliquet eget molestie sagittis at quaerat sodales
+                                    </p>
+                                    <!-- List -->	
+                                    <ul class="simple-list">
+                                       <li class="list-item">
+                                          <p>Quaerat sodales sapien undo velna purus euismod purus velna blandit vitae auctor 
+                                             and congue magna tempor sapien gravida laoreet turpis urna augue, viverra a augue 
+                                             eget tempor diam
+                                          </p>
+                                       </li>
+                                       <li class="list-item">
+                                          <p>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien congue 
+                                             and augue egestas
+                                          </p>
+                                       </li>
+                                    </ul>
+                                    <!-- Small Title -->
+                                    <h5 class="s-24 w-700 text-[1.5rem] lg:text-[1.375rem] md:text-[1.470588rem] sm:text-[1.625rem] xsm:text-[1.4375rem] font-bold mt--35 mt-[35px] mb-[35px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">Overview & Challenge</h5>
+                                    <!-- Text -->
+                                    <p>Congue sagittis augue egestas integer velna purus purus magna nec suscipit and egestas 
+                                       magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue
+                                       luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque 
+                                       fusce cursus neque blandit fusce aliquam 
+                                    </p>
+                                    <!-- Text -->
+                                    <p>Congue augue sagittis egestas integer velna purus purus magna nec suscipit and egestas 
+                                       magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue
+                                       luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque 
+                                       fusce cursus neque blandit fusce lorem nulla an aliquam lacinia justo molestie blandit 
+                                       justo diam an aliquet tortor sagittis lacinia molestie diam egestas
+                                    </p>
+                                    <!-- List -->	
+                                    <ul class="simple-list">
+                                       <li class="list-item">
+                                          <p>Quaerat sodales sapien undo velna purus euismod purus velna blandit vitae auctor 
+                                             and congue magna tempor sapien gravida laoreet turpis urna augue, viverra a augue 
+                                             eget tempor diam
+                                          </p>
+                                       </li>
+                                       <li class="list-item">
+                                          <p>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien congue 
+                                             and augue egestas
+                                          </p>
+                                       </li>
+                                    </ul>
+                                    <!-- PROJECT IMAGES -->
+                                    <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] items-center project-inner-img mt-[50px] lg:mt-[45px] md:mt-[30px]">
+                                       <!-- IMAGE #1 -->	
+                                       <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                                          <div class="project-image project-preview relative overflow-hidden group top-img rounded-[10px] ">
+                                             <!-- Project Preview -->
+                                             <div class="hover-overlay w-full h-auto overflow-hidden relative">
+                                                <img class="img-fluid overflow-hidden transition-transform duration-[400ms] scale-100 group-hover:scale-105" src="images/projects/project-10.jpg" alt="project-preview">
+                                                <div class="item-overlay opacity-0 absolute w-full h-full [transition:all_400ms_ease-in-out] left-0 top-0 bg-[rgba(20,20,20,0.25)]  group-hover:opacity-100"></div>
+                                             </div>
+                                             <!-- Project Link -->
+                                             <div class="project-link ico-35 color--white w-full absolute -translate-y-2/4 opacity-0 text-center text-white [transition:all_400ms_ease-in-out] top-[55%] group-hover:opacity-100 group-hover:top-2/4">
+                                                <a class="image-link" href="images/projects/project-10a.jpg" title="">
+                                                <span class="flaticon-visibility"></span>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!-- IMAGE #2 -->	
+                                       <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                                          <div class="project-image project-preview relative overflow-hidden group rounded-[10px] ">
+                                             <!-- Project Preview -->
+                                             <div class="hover-overlay w-full h-auto overflow-hidden relative">
+                                                <img class="img-fluid overflow-hidden transition-transform duration-[400ms] scale-100 group-hover:scale-105" src="images/projects/project-11.jpg" alt="project-preview">
+                                                <div class="item-overlay opacity-0 absolute w-full h-full [transition:all_400ms_ease-in-out] left-0 top-0 bg-[rgba(20,20,20,0.25)]  group-hover:opacity-100"></div>
+                                             </div>
+                                             <!-- Project Link -->
+                                             <div class="project-link ico-35 color--white w-full absolute -translate-y-2/4 opacity-0 text-center text-white [transition:all_400ms_ease-in-out] top-[55%] group-hover:opacity-100 group-hover:top-2/4">
+                                                <a class="image-link" href="images/projects/project-11a.jpg" title="">
+                                                <span class="flaticon-visibility"></span>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!-- END PROJECT IMAGES -->
+                                    <!-- WIDE IMAGE -->
+                                    <div class="project-inner-img  mt-[30px] ">
+                                       <div class="project-image project-preview relative overflow-hidden group rounded-[10px] ">
+                                          <!-- Project Preview -->
+                                          <div class="hover-overlay w-full h-auto overflow-hidden relative">
+                                             <img class="img-fluid overflow-hidden transition-transform duration-[400ms] scale-100 group-hover:scale-105" src="images/projects/project-08.jpg" alt="project-preview">
+                                             <div class="item-overlay opacity-0 absolute w-full h-full [transition:all_400ms_ease-in-out] left-0 top-0 bg-[rgba(20,20,20,0.25)]  group-hover:opacity-100"></div>
+                                          </div>
+                                          <!-- Project Link -->
+                                          <div class="project-link ico-35 color--white w-full absolute -translate-y-2/4 opacity-0 text-center text-white [transition:all_400ms_ease-in-out] top-[55%] group-hover:opacity-100 group-hover:top-2/4">
+                                             <a class="image-link" href="images/projects/project-08.jpg" title="">
+                                             <span class="flaticon-visibility"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!-- END WIDE IMAGE -->
+                                    <!-- Small Title -->
+                                    <h5 class="s-24 w-700 text-[1.5rem] lg:text-[1.375rem] md:text-[1.470588rem] sm:text-[1.625rem] xsm:text-[1.4375rem] font-bold mt-[50px] lg:mt-[45px] md:mt-[30px] mb-[35px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">Project Summary</h5>
+                                    <!-- Text -->
+                                    <p>Congue augue sagittis egestas integer velna purus purus magna nec suscipit and egestas 
+                                       magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue
+                                       luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque 
+                                       fusce cursus neque blandit fusce lorem nulla an aliquam lacinia justo molestie blandit 
+                                       justo diam an aliquet tortor sagittis lacinia molestie diam egestas
+                                    </p>
+                                    <!-- List -->	
+                                    <ul class="simple-list long-list  mb-[20px] ">
+                                       <li class="list-item">
+                                          <p>Aliqum mullam blandit tempor sapien gravida donec ipsum porta justo. Laoreet 
+                                             turpis urna augue, viverra a augue eget, dictum tempor diam pulvinar dictum 
+                                             tempor
+                                          </p>
+                                       </li>
+                                       <li class="list-item">
+                                          <p>Blandit velna vitae auctor and congue magna tempor sapien eget gravida laoreet 
+                                             turpis
+                                          </p>
+                                       </li>
+                                       <li class="list-item">
+                                          <p>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien 
+                                             congue augue egestas
+                                          </p>
+                                       </li>
+                                    </ul>
+                                    <!-- Text -->
+                                    <p>Sagittis augue congue egestas integer velna purus purus magna nec suscipit and egestas 
+                                       magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue
+                                       luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque 
+                                       fusce cursus neque aliquam fusce blandit
+                                    </p>
+                                    <!-- VIDEO PREVIEW -->							
+                                    <div class="project-image project-inner-img video-preview mt-[50px] lg:mt-[45px] md:mt-[30px] relative text-center">
+                                       <!-- Play Icon --> 
+                                       <a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
+                                          <div class="video-btn video-btn-xl w-[6.25rem] h-[6.25rem] mt-[-3.125rem] ml-[-3.125rem] md:w-28 md:h-28 md:mt-[-3.5rem] md:ml-[-3.5rem] absolute inline-block text-center text-white rounded-[100%] left-2/4 top-2/4 before:content-[''] before:absolute before:left-[-5px] before:right-[-5px] before:top-[-5px] before:bottom-[-5px] before:opacity-0 before:[transition:all_400ms_ease-in-out] before:rounded-[50%] before:bg-[rgba(255,255,255,0.2)] group hover:before:opacity-75  hover:before:left-[-1.5rem]  hover:before:right-[-1.5rem]  hover:before:top-[-1.5rem]  hover:before:bottom-[-1.5rem] bg--pink-400">
+                                             <div class="video-block-wrapper [transition:all_400ms_ease-in-out] group-hover:scale-95"><span class="flaticon-play-button"></span></div>
+                                          </div>
+                                       </a>
+                                       <!-- Preview Image --> 
+                                       <img class="img-fluid rounded-[10px] " src="images/projects/project-09.jpg" alt="video-preview">
+                                    </div>
+                                    <!-- END VIDEO PREVIEW -->	
+                                    <!-- Small Title -->
+                                    <h5 class="s-24 w-700 text-[1.5rem] lg:text-[1.375rem] md:text-[1.470588rem] sm:text-[1.625rem] xsm:text-[1.4375rem] font-bold mt-[50px] lg:mt-[45px] md:mt-[30px] mb-[35px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">Solution & Results</h5>
+                                    <!-- Text -->
+                                    <p>Sagittis congue augue egestas integer velna purus purus magna nec suscipit and egestas 
+                                       magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue
+                                       luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque 
+                                       fusce cursus neque blandit fusce lacinia placerat and nulla justo molestie blandit justo 
+                                       diam aliquet tortor molestie sagittis lacinia undo and mullam molestie diam luctus donec
+                                       bibendum aliquet massa elementum. Libero quisque lacus and ligula massa lorem
+                                    </p>
+                                    <!-- List -->	
+                                    <ul class="simple-list long-list  mb-[20px] ">
+                                       <li class="list-item">
+                                          <p>Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum 
+                                             and vitae efficitur purus and ipsum primis in cubilia laoreet augue egestas luctus
+                                             donec.
+                                          </p>
+                                       </li>
+                                       <li class="list-item">
+                                          <p>Aliqum mullam blandit tempor sapien gravida donec ipsum porta justo. Laoreet 
+                                             turpis urna augue, viverra a augue eget, dictum tempor diam pulvinar dictum
+                                             tempor
+                                          </p>
+                                       </li>
+                                    </ul>
+                                    <!-- Text -->
+                                    <p>Sagittis augue congue egestas integer velna purus purus magna nec suscipit and egestas 
+                                       magna aliquam ipsum vitae purus justo lacus ligula ipsum primis cubilia donec undo augue
+                                       luctus vitae egestas a molestie donec libero sapien dapibus congue tempor undo quisque 
+                                       fusce cursus neque aliquam fusce blandit
+                                    </p>
+                                 </div>
+                                 <!-- END PROJECT TEXT -->
+                                 <!-- MORE PROJECTS BUTTON -->
+                                 <div class="more-projects ico-25 text-end pb--100 pb-[100px] lg:pb-[80px] md:pb-[70px] mt-[65px] lg:mt-[50px] md:mt-[45px] sm:mt-[45px] xsm:mt-[45px]">
+                                    <a href="projects.html">
+                                       <h3 class="s-38 w-700 text-[2.375rem] lg:text-[2.25rem] md:text-[1.98529rem] sm:text-[2.0625rem] xsm:text-[1.6875rem] font-bold inline-block underline mb-0 leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">More Projects</h3>
+                                       <span class="flaticon-next"></span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- END PROJECT DISCRIPTION -->
+                        </div>
+                        <!-- End row -->
+                     </div>
+                     <!-- End container -->	
+                  </section>
+                  <!-- END SINGLE PROJECT-1 -->
+                  <!-- BANNER-6
+                     ============================================= -->
+                  <section id="banner-6" class="bg--05 bg--scroll banner-section bg-no-repeat bg-[center_center] bg-cover !bg-fixed bg-[url(./images/bg-05.jpg)]">
+                     <div class="banner-overlay pt-[80px] lg:pt-[60px] md:pt-[50px] pb-[90px] lg:pb-[70px] md:pb-[60px] w-full h-full">
+                        <div class="container">
+                           <!-- BANNER-6 WRAPPER -->
+                           <div class="banner-6-wrapper">
+                              <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]  justify-center">
+                                 <!-- BANNER-6 TEXT -->
+                                 <div class="md:w-9/12 lg:w-9/12 xl:w-9/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+                                    <div class="banner-6-txt text-center color--white">
+                                       <!-- Title -->	
+                                       <h3 class="s-46 w-700 text-[2.875rem] lg:text-[2.625rem] md:text-[2.35294rem] sm:text-[2.25rem] xsm:text-[1.8125rem] font-bold leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">Give it a try, it's free!</h3>
+                                       <!-- Text -->
+                                       <p class="p-xl opacity-[0.85] mt-[15px] mb-[25px] lg:mt-3 lg:mb-[22px] md:mt-3 md:mb-[20px] sm:mt-3 sm:mb-[22px] xsm:mt-3 xsm:mb-[22px]">It only takes a few clicks to get started</p>
+                                       <!-- Button -->
+                                       <a href="#" class="btn  !rounded-[4px]  btn--theme hover--tra-white" data-bs-toggle="modal" data-bs-target="#modal-3">Get started - it's free</a>
+                                       <!-- Button Text -->
+                                       <p class="p-sm btn-txt ico-15 opacity-[0.85] m-[20px_0_0_0] lg:mt-[15px] lg:mb-0 lg:mx-0 md:mt-[13px] md:mb-0 md:mx-0 xsm:mt-[18px] xsm:mb-0 sm:mt-[15px] sm:mb-0 sm:mx-0">
+                                          <span class="flaticon-check"></span> Free for 14 days, no credit card required.
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!-- END BANNER-6 TEXT -->
+                              </div>
+                              <!-- End row -->	
+                           </div>
+                           <!-- END BANNER-6 WRAPPER -->
+                        </div>
+                        <!-- End container -->	
+                     </div>
+                     <!-- End banner overlay -->	
+                  </section>
+                  <!-- END BANNER-6 -->
+                  <!-- MODAL WINDOW (REQUEST FORM)
+                     ============================================= -->
+					 <div id="modal-3" class="modal auto-off fade" tabindex="-1" role="dialog" aria-labelledby="modal-3">
+						<div class="modal-dialog modal-xl modal-dialog-centered w-[750px] lg:w-[700px] md:max-w-[600px] sm:w-[400px] xsm:w-[360px] xsm:m-auto">
+						   <div class="modal-content overflow-hidden !rounded-[10px]">
+							  <!-- CLOSE BUTTON -->
+							  <button type="button" class="btn-close ico-10 white-color absolute h-[1.5rem] w-[1.5rem] opacity-90 z-[9999] p-0 rounded-[50%] right-[15px] top-[15px] !bg-[rgba(14,14,14,0.3)] text-black focus:no-underline focus:[outline:none]" data-bs-dismiss="modal" aria-label="Close">
+							  <span class="flaticon-cancel relative leading-[24px] -top-[2px]"></span>
+							  </button>
+							  <!-- MODAL CONTENT -->
+							  <div class="modal-body p-0 relative flex-[1_1_auto]">
+								 <div class="container">
+									<div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]">
+									   <!-- BACKGROUND IMAGE -->
+									   <div class="md:w-5/12 lg:w-5/12 xl:w-5/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full bg-img hidden sm:flex md:flex lg:flex xl:flex items-end bg-[left_center] ![background-size:initial] bg-[url(./images/modal-request.jpg)]"></div>
+									   <!-- REQUEST FORM -->
+									   <div class="md:w-7/12 lg:w-7/12 xl:w-7/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+										  <div class="modal-body-content pt-[60px] pb-[50px] px-[35px] lg:pt-[50px] lg:pb-[40px] lg:px-[30px] md:pt-[40px] md:pb-[30px] md:px-[25px] sm:pt-[40px] sm:pb-[30px] sm:px-[25px] xsm:pt-[30px] xsm:pb-[20px] xsm:px-[15px]">
+											 <!-- TEXT -->
+											 <div class="request-form-title">
+												<!-- Title 	-->	
+												<h3 class="s-28 w-700 text-[1.75rem] lg:text-[1.625rem] md:text-[1.470588rem] sm:text-[1.625rem] xsm:text-[1.4375rem] font-bold leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]">Get started for Free!</h3>
+												<!-- Text -->
+												<p class="color--grey mt-[18px] mb-[25px] lg:mt-[15px] lg:mb-[20px] md:mt-[15px] md:mb-[20px] xsm:mt-[15px] xsm:mb-[20px]">Aliquam augue suscipit, luctus neque purus ipsum 
+												   neque dolor primis libero
+												</p>
+											 </div>
+											 <!-- FORM -->	
+											 <form name="requestForm" class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] request-form !m-0">
+												<!-- Form Input -->
+												<div class="w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full !p-0">
+												   <input type="text" name="name" class="form-control block w-full name text-left m-[0_0_25px_0] md:mt-0 md:mb-[20px] md:mx-0 h-[58px] bg-[#f5f6f8] [border:1px_solid_transparent] text-[#666] text-[1rem] font-normal [transition:all_400ms_ease-in-out] lg:h-[54px] md:h-[48px] md:text-[1.0625rem] md:px-[14px] md:py-0 sm:h-[56px] sm:text-[1.0625rem] sm:px-[14px] sm:py-0 xsm:h-[56px] xsm:text-[1.0625rem] xsm:px-[14px] xsm:py-0 leading-normal bg-clip-padding appearance-none p-[.375rem_.75rem] rounded-[0.375rem] focus:bg-white focus:shadow-none focus:border-[#1680fb] focus:[outline:0] placeholder:text-[#666]" placeholder="Enter Your Name*" autocomplete="off" required> 
+												</div>
+												<!-- Form Input -->       
+												<div class="w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full !p-0">
+												   <input type="email" name="email" class="form-control block w-full email text-left m-[0_0_25px_0] md:mt-0 md:mb-[20px] md:mx-0 h-[58px] bg-[#f5f6f8] [border:1px_solid_transparent] text-[#666] text-[1rem] font-normal [transition:all_400ms_ease-in-out] lg:h-[54px] md:h-[48px] md:text-[1.0625rem] md:px-[14px] md:py-0 sm:h-[56px] sm:text-[1.0625rem] sm:px-[14px] sm:py-0 xsm:h-[56px] xsm:text-[1.0625rem] xsm:px-[14px] xsm:py-0 leading-normal bg-clip-padding appearance-none p-[.375rem_.75rem] rounded-[0.375rem] focus:bg-white focus:shadow-none focus:border-[#1680fb] focus:[outline:0] placeholder:text-[#666]" placeholder="Enter Your Email*" autocomplete="off" required> 
+												</div>
+												<!-- Form Button -->
+												<div class="md:w-full w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full form-btn !p-0">  
+												   <button type="submit" class="btn btn--theme hover--theme submit block w-full h-[56px] m-0 lg:h-[54px] lg:text-[0.975rem] md:h-[48px] md:text-[0.975rem]">Get Started Now</button>
+												</div>
+												<!-- Form Message -->
+												<div class="md:w-full w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full  request-form-msg">
+												   <span class="loading"></span>
+												</div>
+											 </form>
+											 <!-- END FORM -->		
+										  </div>
+									   </div>
+									   <!-- END REQUEST FORM -->
+									</div>
+								 </div>
+							  </div>
+							  <!-- END MODAL CONTENT -->
+						   </div>
+						</div>
+						</div>
+                  <!-- MODAL WINDOW (REQUEST FORM) -->
+                  <!-- FOOTER-3
+                     ============================================= -->
+					<footer id="footer-3" class=" pt--100 pt-[100px] lg:pt-[80px] md:pt-[70px] footer pb-[50px] lg:pb-[35px] md:pb-[25px] sm:pb-[30px] xsm:pb-[30px]">
+						<div class="container">
+						   <!-- FOOTER CONTENT -->
+						   <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] ">
+							  <!-- FOOTER LOGO -->
+							  <div class="xl:w-3/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+								 <div class="footer-info mb-[40px] lg:mb-[50px]">
+									<img class="footer-logo w-auto max-w-[inherit] max-h-[40px] lg:max-h-[34px] md:max-h-[33px] sm:max-h-[38px] xsm:max-h-[37px]" src="images/logo-blue.png" alt="footer-logo">
+									<img class="footer-logo-dark hidden w-auto max-w-[inherit] max-h-[40px] lg:max-h-[34px] md:max-h-[33px] sm:max-h-[38px] xsm:max-h-[37px]" src="images/logo-blue-white.png" alt="footer-logo">
+								 </div>
+							  </div>
+							  <!-- FOOTER LINKS -->
+							  <div class="sm:w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+								 <div class="footer-links mb-[40px] fl-1">
+									<!-- Title -->
+									<h6 class="s-17 w-700 text-[1.0625rem] lg:text-[1.0625rem] mb-[25px] lg:mb-[20px] md:text-[1.17647rem] md:mb-[16px] sm:text-[1.21875rem] sm:mb-[20px] xsm:text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold leading-none sm:leading-[1.4] xsm:leading-[1.4]">Company</h6>
+									<!-- Links -->
+									<ul class="foo-links clearfix">
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="about.html">About Us</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="careers.html">Careers</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="blog-listing.html">Our Blog</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="contacts.html">Contact Us</a></p>
+									   </li>
+									</ul>
+								 </div>
+							  </div>
+							  <!-- END FOOTER LINKS -->	
+							  <!-- FOOTER LINKS -->
+							  <div class="sm:w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+								 <div class="footer-links mb-[40px] fl-2">
+									<!-- Title -->
+									<h6 class="s-17 w-700 text-[1.0625rem] lg:text-[1.0625rem] mb-[25px] lg:mb-[20px] md:text-[1.17647rem] md:mb-[16px] sm:text-[1.21875rem] sm:mb-[20px] xsm:text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold leading-none sm:leading-[1.4] xsm:leading-[1.4]">Product</h6>
+									<!-- Links -->
+									<ul class="foo-links clearfix">
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="features.html">Integration</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="reviews.html">Customers</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="pricing-1.html">Pricing</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="help-center.html">Help Center</a></p>
+									   </li>
+									</ul>
+								 </div>
+							  </div>
+							  <!-- END FOOTER LINKS -->	
+							  <!-- FOOTER LINKS -->
+							  <div class="sm:w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+								 <div class="footer-links mb-[40px] fl-3 lg:pl-[28%]">
+									<!-- Title -->
+									<h6 class="s-17 w-700 text-[1.0625rem] lg:text-[1.0625rem] mb-[25px] lg:mb-[20px] md:text-[1.17647rem] md:mb-[16px] sm:text-[1.21875rem] sm:mb-[20px] xsm:text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold leading-none sm:leading-[1.4] xsm:leading-[1.4]">Legal</h6>
+									<!-- Links -->
+									<ul class="foo-links clearfix">
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="terms.html">Terms of Use</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="privacy.html">Privacy Policy</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="cookies.html">Cookie Policy</a></p>
+									   </li>
+									   <li class=" w-auto block align-top clear-none m-0 p-0">
+										  <p class=" font-normal mb-[10px] md:mb-[8px]"><a href="#">Site Map</a></p>
+									   </li>
+									</ul>
+								 </div>
+							  </div>
+							  <!-- END FOOTER LINKS -->	
+							  <!-- FOOTER LINKS -->
+							  <div class="sm:w-6/12 md:w-3/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full ">
+								 <div class="footer-links mb-[40px] fl-4">
+									<!-- Title -->
+									<h6 class="s-17 w-700 text-[1.0625rem] lg:text-[1.0625rem] mb-[25px] lg:mb-[20px] md:text-[1.17647rem] md:mb-[16px] sm:text-[1.21875rem] sm:mb-[20px] xsm:text-[1.21875rem] xsm:mb-[20px] font-Jakarta font-bold leading-none sm:leading-[1.4] xsm:leading-[1.4]">Connect With Us</h6>
+									<!-- Mail Link -->
+									<p class="footer-mail-link ico-25 ml-0 mb-[20px] lg:mb-[14px] md:mb-[10px]">
+									   <a class="font-normal" href="mailto:yourdomain@mail.com">hello@yourdomain.com</a>
+									</p>
+									<!-- Social Links -->	
+									<ul class="footer-socials ico-25 text-center clearfix inline-block m-0">
+									   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-facebook"></span></a></li>
+									   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-twitter"></span></a></li>
+									   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-github"></span></a></li>
+									   <li class=" float-left w-auto inline-block align-top clear-none m-0"><a class=" block mr-[16px] lg:mr-[14px] md:mr-[11px] hover:!text-[#353f4f]" href="#"><span class="flaticon-dribbble"></span></a></li>
+									</ul>
+								 </div>
+							  </div>
+							  <!-- END FOOTER LINKS -->	
+						   </div>
+						   <!-- END FOOTER CONTENT -->
+						   <hr class=" mt-[30px] mb-[50px] lg:mt-[10px] lg:lg:mb-[35px] md:mt-[5px] md:mb-[25px] sm:mt-[15px] sm:mb-[30px] xsm:mt-[5px] xsm:mb-[30px]">
+						   <!-- FOOTER DIVIDER LINE -->
+						   <!-- BOTTOM FOOTER -->
+						   <div class="bottom-footer">
+							  <div class="flex flex-wrap mx-[calc(-0.5*_1.5rem)]  row-cols-1 row-cols-md-2 items-center">
+								 <!-- FOOTER COPYRIGHT -->
+								 <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+									<div class="footer-copyright">
+									   <p class="p-sm mb-0">&copy; 2025 Martex. <span>All Rights Reserved</span></p>
+									</div>
+								 </div>
+								 <!-- FOOTER SECONDARY LINK -->
+								 <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[calc(0.5*_1.5rem)] max-w-full">
+									<div class="bottom-secondary-link ico-15 text-right text-end">
+									   <p class="p-sm mb-0"><a href="https://themeforest.net/user/elite-themes24">Made with 
+										  <span class="flaticon-heart color--pink-400 relative px-[2px] py-0 top-px sm:px-[2px] sm:py-0 sm:top-[1.5px] xsm:px-[2px] xsm:py-0 xsm:top-[1.5px]"></span> by @elite-themes24</a>
+									   </p>
+									</div>
+								 </div>
+							  </div>
+							  <!-- End row -->
+						   </div>
+						   <!-- END BOTTOM FOOTER -->
+						</div>
+						<!-- End container -->	
+					 </footer>
+                  <!-- END FOOTER-3 -->	
+               </div>
+               <!-- END PAGE CONTENT -->	
+               <!-- EXTERNAL SCRIPTS
+                  ============================================= -->	
+               <script src="js/jquery-3.7.0.min.js"></script>
+               <script src="js/bootstrap.min.js"></script>	
+               <script src="js/modernizr.custom.js"></script>
+               <script src="js/jquery.easing.js"></script>
+               <script src="js/jquery.appear.js"></script>
+               <script src="js/menu.js"></script>
+               <script src="js/owl.carousel.min.js"></script>
+               <script src="js/pricing-toggle.js"></script>
+               <script src="js/jquery.magnific-popup.min.js"></script>
+               <script src="js/request-form.js"></script>	
+               <script src="js/jquery.validate.min.js"></script>
+               <script src="js/jquery.ajaxchimp.min.js"></script>	
+               <script src="js/popper.min.js"></script>
+               <script src="js/lunar.js"></script>
+               <script src="js/wow.js"></script>
+               <!-- Custom Script -->		
+               <script src="js/custom.js"></script>
+               <script>
+                  $(document).on({
+                      "contextmenu": function (e) {
+                          console.log("ctx menu button:", e.which); 
+                  
+                          // Stop the context menu
+                          e.preventDefault();
+                      },
+                      "mousedown": function(e) { 
+                          console.log("normal mouse down:", e.which); 
+                      },
+                      "mouseup": function(e) { 
+                          console.log("normal mouse up:", e.which); 
+                      }
+                  });
+               </script>
+               <script>
+                  $(function() {
+                    $(".switch").click(function() {
+                      $("body").toggleClass("theme--dark");
+                  	    if( $( "body" ).hasClass( "theme--dark" )) {
+                                	$( ".switch" ).text( "Light Mode" );
+                            	} else {
+                                	$( ".switch" ).text( "Dark Mode" );
+                            	}
+                      });
+                  });
+               </script>
+               <script>
+                  $(document).ready(function() {
+                            if( $( "body" ).hasClass( "theme--dark" )) {
+                                $( ".switch" ).text( "Light Mode" );
+                            } else {
+                                $( ".switch" ).text( "Dark Mode" );
+                            }
+                        });
+               </script>
+               <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->															
+               <!--
+                  <script>
+                  	var _gaq = _gaq || [];
+                  	_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+                  	_gaq.push(['_trackPageview']);
+                  
+                  	(function() {
+                  		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                  		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                  		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                  	})();
+                  </script>
+                  -->	
+               <script src="js/changer.js"></script>
+               <script defer src="js/styleswitch.js"></script>	
+            </body>
+         
+<!-- Mirrored from martex-tailwindcss.ibthemespro.com/project-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jul 2025 11:28:10 GMT -->
+</html>

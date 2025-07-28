@@ -1,0 +1,109 @@
+/* ==========================================================================
+  34. COLOR SCHEME
+  ========================================================================== */ 
+
+.bg--theme,
+.shape--blue-400:after { 
+  background-color: #c73e9b; 
+}
+
+.btn--theme {
+  color: #fff!important;
+  border-color: #c73e9b!important;
+  background-color: #c73e9b!important;
+}
+
+.hover--theme:hover,
+.white-scroll .scroll .hover--theme:hover,
+.black-scroll .scroll .hover--theme:hover {
+  color: #fff!important;
+  border-color: #b3338a!important;
+  background-color: #b3338a!important;
+}
+
+.theme--dark .white-scroll .scroll .hover--theme:hover {
+  color: #fff!important;
+  border-color: #b3338a!important;
+  background-color: #b3338a!important;
+}
+
+.theme--dark .white-scroll .hover--theme:hover {
+  color: #fff!important;
+  border-color: #b3338a!important;
+  background-color: #b3338a!important;
+}
+
+.color--theme, 
+.color--theme h1, 
+.color--theme h2, 
+.color--theme h3, 
+.color--theme h4, 
+.color--theme h5, 
+.color--theme h6, 
+.color--theme p, 
+.color--theme a, 
+.color--theme li, 
+.color--theme i, 
+.color--theme span,
+.color--white .color--theme { color: #c73e9b!important; }
+
+.loading--theme .loader { 
+  border-color: transparent #c73e9b; 
+}
+
+.loading--theme .loader::after {
+  border-color: transparent rgba(190, 108, 190, .15); 
+}
+
+.nav-theme .sm-info { 
+  background-color: #c73e9b; 
+}
+
+.wsmenu > .wsmenu-list.nav-theme > li > ul.sub-menu > li > a:hover,
+.wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.w-75 ul.link-list > li > a:hover,
+.wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.halfmenu ul.link-list > li > a:hover {
+  color: #c73e9b!important;
+}
+
+.hero-section .quick-form .form-control:focus {
+  border-color: #c73e9b;
+}
+
+.cbox-2:hover .cbox-2-ico.bg--theme { 
+  color: #c73e9b; 
+  border-color: #c73e9b; 
+}
+
+.tabs-1.tabs--theme, 
+.tabs-1.tabs--theme li.current:hover { 
+  color: #c73e9b; 
+  border-color: #c73e9b; 
+}
+
+.faqs-section .tabs--theme .tabs-1 li.current,
+.faqs-section .tabs--theme .tabs-1 li.current:hover {
+  background-color: #c73e9b;
+  border-color: #c73e9b!important;
+}
+
+.switch-wrap input:checked + .switcher.switcher--theme { 
+  background-color: #c73e9b; 
+  border-color: #c73e9b; 
+}
+
+.shape-ico.color--theme path,
+.shape-ico.color--theme path,
+.shape-ico.color--theme path {
+  fill: #f7e4f1;
+}
+
+.newsletter-section .form-control:focus {
+  background-color: #fff;
+  border-color: #353f4f;
+}
+
+.theme-pagination .page-item.active .page-link {
+  color: #fff!important;
+  background-color: #c73e9b;
+  border: 2px solid #c73e9b;
+}
